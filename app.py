@@ -1,4 +1,5 @@
 from flask import Flask, render_template, send_from_directory
+from waitress import serve
 
 app = Flask(__name__)
 
@@ -57,7 +58,7 @@ def help():
     return render_template('help.html')
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    serve(app, host='0.0.0.0', port=8080)
 
 @app.route('/static/<path:filename>')
 def static_files(filename):
