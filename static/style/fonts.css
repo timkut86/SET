@@ -1,0 +1,105 @@
+/* DM_mono */
+@font-face {
+    font-family: "DM_mono";
+    src: url(../fonts/DM_Mono/DMMono-Italic.ttf);
+    font-style: italic;
+}
+@font-face {
+    font-family: "DM_mono";
+    src: url(../fonts/DM_Mono/DMMono-Light.ttf);
+    font-style: light;
+}
+@font-face {
+    font-family: "DM_mono";
+    src: url(../fonts/DM_Mono/DMMono-LightItalic.ttf);
+    font-style: light italic;
+}
+@font-face {
+    font-family: "DM_mono";
+    src: url(../fonts/DM_Mono/DMMono-Medium.ttf);
+    font-style: medium;
+}
+@font-face {
+    font-family: "DM_mono";
+    src: url(../fonts/DM_Mono/DMMono-MediumItalic.ttf);
+    font-style: medium italic;
+}
+@font-face {
+    font-family: "DM_mono";
+    src: url(../fonts/DM_Mono/DMMono-Regular.ttf);
+    font-style: normal;
+}
+/* Limelight */
+@font-face {
+    font-family: "Limelight";
+    src: url(../fonts/Limelight/Limelight-Regular.ttf);
+    font-style: normal;
+}
+*{
+    text-decoration: none;
+}
+h1, .SET-card p, .SET-card-pm p, #limelight, #Limelight, #pl_name{
+    font-family: "Limelight";
+    font-style: normal;
+    color: #1E1E1E;
+}
+h2{
+    font-family: "Limelight";
+    font-style: normal;
+    color: #1E1E1E;
+}
+h3{
+    font-family: "Limelight";
+    font-style: normal;
+    color: #1E1E1E;
+}
+h4{
+    font-family: "Limelight";
+    font-style: normal;
+    color: #1E1E1E;
+}
+h5{
+    font-family: "Limelight";
+    font-style: normal;
+    color: #1E1E1E;
+}
+h6{
+    font-family: "Limelight";
+    font-style: normal;
+    color: #1E1E1E;
+}
+#italic{
+    font-family: "DM_mono";
+    font-style: italic;
+    color: #1E1E1E;
+}
+#medium{
+    font-family: "DM_mono";
+    font-style: medium;
+    color: #1E1E1E;
+}
+#light{
+    font-family: "DM_mono";
+    font-style: light;
+    color: #1E1E1E;
+}
+#medium_italic{
+    font-family: "DM_mono";
+    font-style: medium italic;
+    color: #1E1E1E;
+}
+#light_italic{
+    font-family: "DM_mono";
+    font-style: light italic;
+    color: #1E1E1E;
+}
+#regular{
+    font-family: "DM_mono";
+    font-style: normal;
+    color: #1E1E1E;
+}
+#main-ads-slide-button-back a, #main-ads-slide-button-next a, #open-catalog_btn, .selector_btn p, #open-cart_btn, #filters_choose_all, #filters_clear_all, #mainbtn1 button, #mainbtn2 button, #mainbtn3 button, #mainbtn4 button, #mainbtn5 button, #mainbtn6 button, #mainbtn7 button, #mainbtn8 button, #mainbtn9 button, #mainbtn10 button, #mainbtn11 button, #mainbtn12 button, #mainbtn13 button, #pl-back{
+    font-family: "DM_mono";
+    font-style: normal;
+    color: #E0E0E0;
+}

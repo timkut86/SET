@@ -1,0 +1,18 @@
+#loading-screen{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #FFE5CC;
+    z-index: 10000; 
+    overflow-y: hidden;
+    overflow-x: hidden;
+    h1{
+        font-size: 128px;
+        color: #4C9900;
+    }
+}

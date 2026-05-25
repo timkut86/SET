@@ -1,0 +1,26 @@
+.setting{
+    background-color: rgba(255, 229, 204, 0.5);
+    border: 1px solid #994D00;
+    min-width: 300px;
+    width: 30%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    padding-right: 16px;
+    padding-left: 16px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    .sett-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        p{
+            text-align: left;
+        }
+        margin-bottom: 16px;
+    }
+    margin-bottom: 16px;
+    margin-top: 16px;
+}

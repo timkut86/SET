@@ -1,0 +1,280 @@
+.navigation{
+    transition: 0.25s ease;
+    position: fixed;
+    top: 20px;
+    background-color: rgba(224, 224, 224, 0.5);
+    border: 1px solid rgba(199, 199, 199, 0.5);
+    backdrop-filter: blur(10px);
+    width: calc(100% - 40px);
+    justify-self: center;
+    height: 66px;
+    text-align: center;
+    z-index: 5;
+    border-radius: 20px;
+    div{
+        display: inline-block;
+    }
+    .nav-part-1{
+        left: 0;
+        position: fixed;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 18px;
+        #nb-logo{
+            a, button{
+                color: #1E1E1E;
+            }
+        }
+        #nb{
+            a, button{
+                color: #1E1E1E;
+                font-size: 12px;
+            }
+        }
+    }
+    .nav-part-2{
+        top: 21px;
+        right: 0;
+        position: fixed;
+        display: flex;
+        flex-direction: row;
+        #nb-icon{
+            width: 24px;
+            height: 24px;
+            margin: 12px;
+            margin-top: 0;
+            margin-left: 0;
+            margin-right: 24px;
+            a, button{
+                display: block;
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+    input{
+        width: 400px;
+        height: 40px;
+        background-color: #E0E0E0;
+        border: 1px solid rgba(91, 91, 91, 0.5);
+        border-radius: 20px;
+        transform: translateY(6px);
+        margin-top: 6.5px;
+        color: #A1A1A1;
+        font-family: "DM_mono";
+        font-style: light;
+        font-size: 16px;
+        padding-left: 16px;
+        transition: 0.25s;
+    }
+    input:hover{
+        box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.5);
+        transition: 0.25s;
+    }
+    h1{
+        color: #1E1E1E;
+        font-size: 24px;
+    }
+}
+
+.navigation-search {
+    position: relative;
+    a {
+        height: 24px;
+        width: 24px;
+        position: absolute;
+        z-index: 100;
+        right: 12px;
+        top: 20px;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .navigation input{
+        width: 300px;
+    }
+}
+@media screen and (max-width: 1050px) {
+    .navigation input{
+        width: 150px;
+        font-size: 12px;
+    }
+}
+@media screen and (min-width: 900px) {
+    .navigation-button.nb-s{
+        display: none;
+    }
+}
+@media screen and (max-width: 900px) {
+    #nb{
+        display: none;
+    }
+    .navigation-search a, .navigation-search input{
+        display: none;
+    }
+    .navigation-button.nb-{
+        display: none;
+    }
+    .navigation{
+        display: none;
+    }
+}
+#nb-m{
+    transform: translateY(5px);
+    margin-left: 6px;
+    margin-right: 0px;
+    a{
+        display: block;
+        width: 24px;
+        height: 24px;
+    }
+}
+
+
+
+
+.navmenu.green{
+    width: 100%;
+    height: 100%;
+    background-color: #E5FFCC;
+    position: fixed;
+    z-index: 5;
+    transform: translateX(-100%) translateY(66px);
+    .navigation-menu-button{
+        margin: 24px;
+        font-size: 32px;
+        img{
+            margin-right: 24px;
+        }
+    }
+}
+@media screen and (min-width: 900px) {
+    .navmenu.green{
+        display: none;
+    }
+}
+
+
+.nav-mobile{
+    justify-self: center;
+    padding: 8px;
+    width: auto;
+    max-width: 372px;
+    background-color: rgba(224, 224, 224, 0.5);
+    border: 1px solid rgba(199, 199, 199, 0.5);
+    backdrop-filter: blur(10px);
+    position: fixed;
+    bottom: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 60px;
+    a#regular{
+        font-size: 12px;
+        height: 60px;
+        width: 60px;
+        background-color: rgba(224, 224, 224, 0.5);
+        border: 1px solid rgba(199, 199, 199, 0.5);
+        display: flex;
+        flex-direction: column;
+        color: #1e1e1e;
+        justify-content: center;
+        align-items: center;
+        border-radius: 60px;
+        margin-left: 4px;
+        margin-right: 4px;
+        img{
+            height: 20px;
+            width: 20px;
+        }
+    }
+    a:active{
+        box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.5);
+        transition: 0.25s;
+    }
+    a:nth-child(1), a:nth-child(4){
+        margin: 0;
+    }
+    a:nth-child(4)#regular img{
+        height: 30px;
+        width: 30px;
+    }
+}
+@media (min-width: 900px) {
+    .nav-mobile{
+        display: none;
+    }
+}
+.black-nb{
+    transition: 0.25s;
+    margin-top: -2px;
+    margin-left: 24px;
+    background-color: #1E1E1E;
+    color: #E0E0E0;
+    padding: 6px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    .catalog_btn_padding{
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 6px;
+        margin-right: 6px;
+    }
+    p{
+        font-size: 16px;
+        margin-left: 4px;
+    }
+    img{
+        height: 16px;
+        width: 16px;
+    }
+}
+.black-nb1{
+    transform: translateY(-4px);
+    margin: 24px;
+    margin-left: 12px;
+    margin-top: 0;
+    transition: 0.25s;
+    background-color: #1E1E1E;
+    color: #E0E0E0;
+    padding: 6px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    .catalog_cart_padding{
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 6px;
+        margin-right: 6px;
+    }
+    p{
+        font-size: 16px;
+        margin-left: 8px;
+    }
+    img{
+        height: 16px;
+        width: 16px;
+    }
+}
+.black-nb:hover{
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.5);
+    transition: 0.25s;
+}
+.black-nb1:hover{
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.5);
+    transition: 0.25s;
+}

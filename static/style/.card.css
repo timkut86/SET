@@ -1,0 +1,232 @@
+.card-wrapper{
+    max-width: 200px;
+    min-width: 200px;
+    vertical-align: top;
+    margin: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    .card-label{
+        top: -13.2px;
+        position: fixed;
+        height: 26.4px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        div#limelight{
+            max-width: 61px;
+            min-width: 61px;
+            padding: 4px;
+            padding-right: 12px;
+            padding-left: 12px;
+            margin-right: 4px;
+            margin-left: 4px;
+            border-radius: 30px;
+            color: #e0e0e0;
+        }
+        .card-label-star{
+            padding: 4px;
+            padding-right: 12px;
+            padding-left: 12px;
+            margin-right: 4px;
+            margin-left: 4px;
+            border-radius: 30px;
+        }
+        .card-label-percents{
+            background-color: #FF0000;
+        }
+        .card-label-season{
+            display: none;
+        }
+        .card-label-star{
+            img{
+                width: 10px;
+                height: 10px;
+            }
+        }
+    }
+    .card{
+        text-align: center;
+        backdrop-filter: blur(10px);
+        transition: 0.25s;
+        margin: 0;
+        border-radius: 20px;
+        height: 360px;
+        max-width: 200px;
+        min-width: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 16px;
+        img.card-image{
+            width: 175px;
+            aspect-ratio: 7/5;
+            border-radius: 20px;
+        }
+        p.card-name{
+            width: 100%;
+            text-align: left;
+            font-size: 16px;
+            height: 67px;
+            margin-top: 8px;
+        }
+        .card-producer{
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: center;
+            img.card-producer-image{
+                width: 24px;
+                height: 24px;
+                border-radius: 100%;
+                margin-right: 8px;
+            }
+            margin-bottom: 16px;
+        }
+        .card-rate-and-price-and-favorite{
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            .card-rate{
+                height: 50%;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: flex-start;
+                img{
+                    height: 16px;
+                    width: 16px;
+                    margin-right: 8px;
+                }
+                p{
+                    width: calc(100% - 16px);
+                }
+            }
+        }
+        .card-rate-and-price-and-favorite *{
+            width: 50%;
+        }
+        .card-rate-and-favorite{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            margin: 0;
+        }
+        .card-price{
+            align-self: flex-end;
+            justify-self: flex-end;
+            text-align: right;
+            font-size: 32px;
+            margin-right: 12px;
+        }
+        .card-delivery#regular{
+            width: 100%;
+            margin-top: 16px;
+            padding: 4px;
+            border-radius: 20px;
+            color: #e0e0e0;
+            img{
+                height: 16px;
+                width: 16px;
+                transform: translateY(2px);
+                margin-right: 4px;
+            }
+        }
+        .old-price{
+            text-decoration: line-through;
+        }
+    }
+}
+.card:hover{
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.5);
+    transition: 0.25s;
+}
+/*colors*/
+.card-wrapper.green-card{
+    .card-delivery, .card-label-star, .card-label-new{
+        background-color: rgba(77, 153, 0, 1);
+    }
+    .card{
+        background-color: rgba(229, 255, 204, 0.5);
+        border: 1px solid rgba(77, 153, 0, 1);
+    }
+    img.card-image{
+        border: 1px solid rgba(77, 153, 0, 1);
+    }
+}
+.card-wrapper.brown-card{ 
+    .card-delivery, .card-label-star, .card-label-new{
+        background-color: #994D00;
+    }
+    .card{
+        background-color: rgba(255, 229, 204, 0.5);
+        border: 1px solid #994D00;
+    }
+    img.card-image{
+        border: 1px solid #994D00;
+    }
+}
+.card-wrapper.white-card{ 
+    .card-delivery, .card-label-star, .card-label-new{
+        background-color: rgba(56, 56, 56, 1);
+    }
+    .card{
+        background-color: rgba(224, 224, 224, 0.5);
+        border: 1px solid rgba(56, 56, 56, 1);
+    }
+    img.card-image{
+        border: 1px solid rgba(56, 56, 56, 1);
+    }
+}
+/*New, season, sales, etc*/
+.card-wrapper.new0 .card-label-new{
+    display: none;
+}
+.card-wrapper.sales0 .card-label-percents, .card-wrapper.sales0 .old-price{
+    display: none;
+}
+.card-wrapper.favorite0 .card-label-star{
+    display: none;
+}
+.card-wrapper.sales1{ 
+    .card-label-percents, .card-delivery{
+        background-color: #FF0000;
+    }
+    .card{
+        border: 1px solid #FF0000;
+    }
+    img.card-image{
+        border: 1px solid #FF0000;
+    }
+    .card-price#limelight{
+        color:#FF0000;
+    }
+}
+@media (max-width: 900px){
+    .card-wrapper{
+        margin: 0px;
+        margin-bottom: 20px;
+        max-width: 170px;
+        min-width: 170px;
+        .card{
+            max-width: 170px;
+            min-width: 170px;
+            height: 340px;
+            img.card-image{
+                width: 150px;
+            }
+            p.card-name{
+                font-size: 14px;
+            }
+            p.card-producer-name{
+                font-size: 12px;
+            }
+        }
+    }
+}

@@ -1,0 +1,35 @@
+.SET-card, .SET-card-pm{
+    box-shadow: 0px 15px 30px 0px rgba(0, 0, 0, 0.5);
+    aspect-ratio: 2/1;
+    background: url(../Backgrounds/Ads/Group\ 163.svg);
+    background-size: cover;
+    border-radius: 35px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    p:nth-child(1){
+        font-size: 32px;
+        color: #e0e0e0;
+        align-self: flex-start;
+    }
+    p#regular{
+        color: #e0e0e0;
+        align-self: flex-end;
+    }
+}
+.another-card{
+    box-shadow: 0px 15px 30px 0px rgba(0, 0, 0, 0.5);
+    aspect-ratio: 2/1;
+    background-color: #1e1e1e;
+    border-radius: 35px;
+    padding: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    p#regular{
+        color: #e0e0e0;
+        font-size: 32px;
+    }
+}

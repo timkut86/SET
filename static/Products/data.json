@@ -1,0 +1,1049 @@
+{
+
+    "season": "Summer",
+
+    "apple_iphone_17":{
+        "product_name": "Apple IPhone 17",
+        "brand": "Apple",
+        "brand_image": "../static/Products/brands/apple.png",
+        "product_img_src_1": "../static/Products/apple_iphone_17/apple_iphone_17_img1.png",
+        "product_img_src_2": "../static/Products/apple_iphone_17/apple_iphone_17_img2.png",
+        "product_img_src_3": "../static/Products/apple_iphone_17/apple_iphone_17_img3.png",
+        "product_img_src_4": "../static/Products/apple_iphone_17/apple_iphone_17_img4.png",
+        "product_video": "N/A",
+        "product_price": "599$",
+        "is_new": true,
+        "is_it_in_sales": true,
+        "sales_percent": "-50%",
+        "old_price": "1199$",
+        "product_delivery_date": "07/13/2026",
+        "is_favorite": true,
+        "description": "iPhone 17 has a beautiful, durable design that’s available in five refined colors. It features the new 48MP Dual Fusion camera system, the new Center Stage front camera for smarter group selfies, and Dual Capture video. The powerful A19 chip delivers advanced performance and all-day battery life. Larger, 6.3-inch Super Retina XDR display with ProMotion up to 120Hz. 3x better scratch resistance with Ceramic Shield 2 front. Fast charge up to 50% in 20 minutes. Helpful Apple Intelligence tools like Clean Up and more.",
+        "product_rating": "5.0",
+        "category": "techniques",
+        "type": "devices",
+        "is_it_possible_to_buy": true,
+        "related":{
+            "rel1":"apple_iphone_17_pro",
+            "rel2": "sony_playstation_5",
+            "rel3": "",
+            "rel4": "",
+            "rel5": ""
+        },
+        "properties":{
+            "prop1":"Color: Black",
+            "prop2":"Memory: 512GB",
+            "prop3":"RAM: 8GB",
+            "prop4":"OS: IOS26",
+            "prop5":"Cameras: 2",
+            "prop6":"Display: 6,3inch",
+            "prop7":"Processor: Apple A19",
+            "prop8":"SET Guarantie: 2 years",
+            "prop9":"",
+            "prop10":""
+        },
+        "reviews":{
+            "r1":{
+                "name":"Donald Trump",
+                "review":"This is a sample review. It may be a big or small and it has a rate.",
+                "rate":"5"
+            },
+            "r2":{
+                "name":"Jo Biden",
+                "review":"This is a sample review. It may be a big or small and it has a rate.",
+                "rate":"5"
+            },
+            "r3":{
+                "name":"Baraq Obama",
+                "review":"This is a sample review. It may be a big or small and it has a rate.",
+                "rate":"5"
+            }
+        }
+    },
+    "apple_iphone_17_pro":{
+        "product_name": "Apple IPhone 17 Pro",
+        "brand": "Apple",
+        "brand_image": "../static/Products/brands/apple.png",
+        "product_img_src_1": "../static/Products/apple_iphone_17_pro/apple_iphone_17_pro_img1.png",
+        "product_img_src_2": "../static/Products/apple_iphone_17_pro/apple_iphone_17_pro_img2.png",
+        "product_img_src_3": "../static/Products/apple_iphone_17_pro/apple_iphone_17_pro_img3.png",
+        "product_img_src_4": "../static/Products/apple_iphone_17_pro/apple_iphone_17_pro_img4.png",
+        "product_video": "N/A",
+        "product_price": "749$",
+        "is_new": false,
+        "is_it_in_sales": true,
+        "sales_percent": "-50%",
+        "old_price": "1499$",
+        "product_delivery_date": "07/13/2026",
+        "is_favorite": true,
+        "description": "The innovative design for iPhone 17 Pro delivers exceptional durability, breakthrough battery life, and unlocks the extraordinary power of the A19 Pro chip. The 48MP Pro Fusion camera system has the longest iPhone Telephoto ever with 8x optical-quality zoom, and the new Center Stage front camera for smarter group selfies and Dual Capture video. It has Ceramic Shield 2 on the front for 3x better scratch resistance, a 4x more crack-resistant Ceramic Shield back, and a forged aluminum unibody that dissipates heat. Helpful Apple Intelligence tools like Clean Up and more.",
+        "product_rating": "5.0",
+        "category": "techniques",
+        "type": "devices",
+        "is_it_possible_to_buy": true,
+        "related":{
+            "rel1":"apple_iphone_17",
+            "rel2": "",
+            "rel3": "",
+            "rel4": "",
+            "rel5": ""
+        },
+        "properties":{
+            "prop1":"Color: Silver",
+            "prop2":"SET Guarantie: 1 year",
+            "prop3":"",
+            "prop4":"",
+            "prop5":"",
+            "prop6":"",
+            "prop7":"",
+            "prop8":"",
+            "prop9":"",
+            "prop10":""
+        },
+        "reviews":{
+            "r1":{
+                "name":"Donald Trump",
+                "review":"This is a sample review. It may be a big or small and it has a rate.",
+                "rate":"5"
+            },
+            "r2":{
+                "name":"Jo Biden",
+                "review":"This is a sample review. It may be a big or small and it has a rate.",
+                "rate":"5"
+            },
+            "r3":{
+                "name":"Vladimir Putin",
+                "review":"This is a sample review. It may be a big or small and it has a rate.",
+                "rate":"5"
+            }
+        }
+    },
+    "sony_playstation_5":{
+        "product_name": "Sony PlayStation 5",
+        "brand": "Sony",
+        "brand_image": "../static/Products/brands/sony.png",
+        "product_img_src_1": "../static/Products/sony_playstation_5/sony_playstation_5_img1.png",
+        "product_img_src_2": "../static/Products/sony_playstation_5/sony_playstation_5_img2.png",
+        "product_img_src_3": "../static/Products/sony_playstation_5/sony_playstation_5_img3.png",
+        "product_img_src_4": "../static/Products/sony_playstation_5/sony_playstation_5_img4.png",
+        "product_video": "N/A",
+        "product_price": "549$",
+        "is_new": false,
+        "is_it_in_sales": false,
+        "sales_percent": "",
+        "old_price": "",
+        "product_delivery_date": "07/13/2026",
+        "is_favorite": true,
+        "description": "",
+        "product_rating": "5.0",
+        "category": "techniques",
+        "type": "consoles",
+        "is_it_possible_to_buy": true,
+        "related":{
+            "rel1":"Lego_Minecraft_Mini_Biomes",
+            "rel2": "apple_iphone_17",
+            "rel3": "",
+            "rel4": "",
+            "rel5": ""
+        },
+        "properties":{
+            "prop1":"SET Guarantie: 1 year",
+            "prop2":"",
+            "prop3":"",
+            "prop4":"",
+            "prop5":"",
+            "prop6":"",
+            "prop7":"",
+            "prop8":"",
+            "prop9":"",
+            "prop10":""
+        },
+        "reviews":{
+            "r1":{
+                "name":"Donald Trump",
+                "review":"This is a sample review. It may be a big or small and it has a rate.",
+                "rate":"5"
+            },
+            "r2":{
+                "name":"Jo Biden",
+                "review":"This is a sample review. It may be a big or small and it has a rate.",
+                "rate":"5"
+            },
+            "r3":{
+                "name":"Baraq Obama",
+                "review":"This is a sample review. It may be a big or small and it has a rate.",
+                "rate":"5"
+            }
+        }
+    },
+    "Lego_Technic_Jeep_Wrangler_Rubicon_SUV":{
+        "product_name": "LEGO Technic Jeep® Wrangler Rubicon SUV",
+        "brand": "LEGO",
+        "brand_image": "../static/Products/brands/LEGO.png",
+        "product_img_src_1": "../static/Products/Lego_Technic_Jeep_Wrangler_Rubicon_SUV/Lego_Technic_Jeep_Wrangler_Rubicon_SUV_img1.png",
+        "product_img_src_2": "../static/Products/Lego_Technic_Jeep_Wrangler_Rubicon_SUV/Lego_Technic_Jeep_Wrangler_Rubicon_SUV_img2.png",
+        "product_img_src_3": "../static/Products/Lego_Technic_Jeep_Wrangler_Rubicon_SUV/Lego_Technic_Jeep_Wrangler_Rubicon_SUV_img3.png",
+        "product_img_src_4": "../static/Products/Lego_Technic_Jeep_Wrangler_Rubicon_SUV/Lego_Technic_Jeep_Wrangler_Rubicon_SUV_img4.png",
+        "product_video": "../static/Products/Lego_Technic_Jeep_Wrangler_Rubicon_SUV/Lego_Technic_Jeep_Wrangler_Rubicon_SUV_video.mp4",
+        "product_price": "65$",
+        "is_new": false,
+        "is_it_in_sales": false,
+        "sales_percent": "-50%",
+        "old_price": "1199$",
+        "product_delivery_date": "07/06/2026",
+        "is_favorite": true,
+        "description": "",
+        "product_rating": "5.0",
+        "category": "toys",
+        "type": "LEGO",
+        "is_it_possible_to_buy": true,
+        "related":{
+            "rel1":"Lego_DC_Arkham_Asylum",
+            "rel2": "Lego_Minecraft_Mini_Biomes",
+            "rel3": "",
+            "rel4": "",
+            "rel5": ""
+        },
+        "properties":{
+            "prop1":"SET Guarantie: 1 year",
+            "prop2":"",
+            "prop3":"",
+            "prop4":"",
+            "prop5":"",
+            "prop6":"",
+            "prop7":"",
+            "prop8":"",
+            "prop9":"",
+            "prop10":""
+        },
+        "reviews":{
+            "r1":{
+                "name":"Donald Trump",
+                "review":"This is a sample review. It may be a big or small and it has a rate.",
+                "rate":"5"
+            },
+            "r2":{
+                "name":"Jo Biden",
+                "review":"This is a sample review. It may be a big or small and it has a rate.",
+                "rate":"5"
+            },
+            "r3":{
+                "name":"Baraq Obama",
+                "review":"This is a sample review. It may be a big or small and it has a rate.",
+                "rate":"5"
+            }
+        }
+    },
+    "Lego_DC_Arkham_Asylum":{
+        "product_name": "LEGO DC Arkham Asylum™",
+        "brand": "LEGO",
+        "brand_image": "../static/Products/brands/LEGO.png",
+        "product_img_src_1": "../static/Products/Lego_DC_Arkham_Asylum/Lego_DC_Arkham_Asylum_img1.png",
+        "product_img_src_2": "../static/Products/Lego_DC_Arkham_Asylum/Lego_DC_Arkham_Asylum_img2.png",
+        "product_img_src_3": "../static/Products/Lego_DC_Arkham_Asylum/Lego_DC_Arkham_Asylum_img3.png",
+        "product_img_src_4": "../static/Products/Lego_DC_Arkham_Asylum/Lego_DC_Arkham_Asylum_img4.png",
+        "product_video": "../static/Products/Lego_DC_Arkham_Asylum/Lego_DC_Arkham_Asylum_video.mp4",
+        "product_price": "300$",
+        "is_new": false,
+        "is_it_in_sales": false,
+        "sales_percent": "-50%",
+        "old_price": "1199$",
+        "product_delivery_date": "07/08/2026",
+        "is_favorite": true,
+        "description": "",
+        "product_rating": "5.0",
+        "category": "toys",
+        "type": "LEGO",
+        "is_it_possible_to_buy": true,
+        "related":{
+            "rel1":"Lego_Technic_Jeep_Wrangler_Rubicon_SUV",
+            "rel2": "Lego_Minecraft_Mini_Biomes",
+            "rel3": "",
+            "rel4": "",
+            "rel5": ""
+        },
+        "properties":{
+            "prop1":"SET Guarantie: 1 year",
+            "prop2":"",
+            "prop3":"",
+            "prop4":"",
+            "prop5":"",
+            "prop6":"",
+            "prop7":"",
+            "prop8":"",
+            "prop9":"",
+            "prop10":""
+        },
+        "reviews":{
+            "r1":{
+                "name":"Donald Trump",
+                "review":"This is a sample review. It may be a big or small and it has a rate.",
+                "rate":"5"
+            },
+            "r2":{
+                "name":"Jo Biden",
+                "review":"This is a sample review. It may be a big or small and it has a rate.",
+                "rate":"5"
+            },
+            "r3":{
+                "name":"Baraq Obama",
+                "review":"This is a sample review. It may be a big or small and it has a rate.",
+                "rate":"5"
+            }
+        }
+    },
+    "Lego_Minecraft_Mini_Biomes":{
+        "product_name": "LEGO Minecraft® Mini Biomes",
+        "brand": "LEGO",
+        "brand_image": "../static/Products/brands/LEGO.png",
+        "product_img_src_1": "../static/Products/Lego_Minecraft_Mini_Biomes/Lego_Minecraft_Mini_Biomes_img1.png",
+        "product_img_src_2": "../static/Products/Lego_Minecraft_Mini_Biomes/Lego_Minecraft_Mini_Biomes_img2.png",
+        "product_img_src_3": "../static/Products/Lego_Minecraft_Mini_Biomes/Lego_Minecraft_Mini_Biomes_img3.png",
+        "product_img_src_4": "../static/Products/Lego_Minecraft_Mini_Biomes/Lego_Minecraft_Mini_Biomes_img4.png",
+        "product_video": "../static/Products/Lego_Minecraft_Mini_Biomes/Lego_Minecraft_Mini_Biomes_video.mp4",
+        "product_price": "60$",
+        "is_new": false,
+        "is_it_in_sales": false,
+        "sales_percent": "-50%",
+        "old_price": "1199$",
+        "product_delivery_date": "07/03/2026",
+        "is_favorite": true,
+        "description": "Collectable Minecraft® model. Each biome features authentic details, such as lava, gold, cacti, trees, a waterfall, cave, shipwreck and a treasure chest.",
+        "product_rating": "5.0",
+        "category": "toys",
+        "type": "LEGO",
+        "is_it_possible_to_buy": true,
+        "related":{
+            "rel1":"Lego_Technic_Jeep_Wrangler_Rubicon_SUV",
+            "rel2": "Lego_DC_Arkham_Asylum",
+            "rel3": "sony_playstation_5",
+            "rel4": "",
+            "rel5": ""
+        },
+        "properties":{
+            "prop1":"SET Guarantie: 1 year",
+            "prop2":"",
+            "prop3":"",
+            "prop4":"",
+            "prop5":"",
+            "prop6":"",
+            "prop7":"",
+            "prop8":"",
+            "prop9":"",
+            "prop10":""
+        },
+        "reviews":{
+            "r1":{
+                "name":"Donald Trump",
+                "review":"This is a sample review. It may be a big or small and it has a rate.",
+                "rate":"5"
+            },
+            "r2":{
+                "name":"Jo Biden",
+                "review":"This is a sample review. It may be a big or small and it has a rate.",
+                "rate":"5"
+            },
+            "r3":{
+                "name":"Baraq Obama",
+                "review":"This is a sample review. It may be a big or small and it has a rate.",
+                "rate":"5"
+            }
+        }
+    },
+    "Adidas_Adizero_EVO_SL_Shoes":{
+        "product_name": "Adidas Adizero EVO SL Shoes",
+        "brand": "Adidas",
+        "brand_image": "../static/Products/brands/adidas.png",
+        "product_img_src_1": "../static/Products/Adidas_Adizero_EVO_SL_Shoes/Adidas_Adizero_EVO_SL_Shoes_img1.png",
+        "product_img_src_2": "../static/Products/Adidas_Adizero_EVO_SL_Shoes/Adidas_Adizero_EVO_SL_Shoes_img2.png",
+        "product_img_src_3": "../static/Products/Adidas_Adizero_EVO_SL_Shoes/Adidas_Adizero_EVO_SL_Shoes_img3.png",
+        "product_img_src_4": "../static/Products/Adidas_Adizero_EVO_SL_Shoes/Adidas_Adizero_EVO_SL_Shoes_img4.png",
+        "product_video": "N/A",
+        "product_price": "120$",
+        "is_new": false,
+        "is_it_in_sales": true,
+        "sales_percent": "-20%",
+        "old_price": "150$",
+        "product_delivery_date": "07/02/2026",
+        "is_favorite": false,
+        "description": "SPEED-INSPIRED SHOES DESIGNED FOR FAST CULTURE. Experience the feeling of fast in the Adizero Evo SL. Inspired by the innovation of record-breaking shoes in the Adizero running family - and specifically the Pro Evo 1 - the Evo SL is designed for you to run in it, or not. Combining Adizero technology with a bold and unique racing-inspired aesthetic, it's an evolution of speed in all aspects of life. A responsive layer of LIGHTSTRIKE PRO foam in the midsole provides comfort and cushioning for optimal energy return.",
+        "product_rating": "5.0",
+        "category": "clothes",
+        "type": "shoes",
+        "is_it_possible_to_buy": true,
+        "related":{
+            "rel1":"Adidas_SUPERNOVA_RISE_3_RUNNING_SHOES",
+            "rel2": "Adidas_WORKOUT_ESSENTIALS_BASE_WOVEN_SHORT",
+            "rel3": "Adidas_Tennis_Climacool_Freelift_T-Shirt_Pro",
+            "rel4": "",
+            "rel5": ""
+        },
+        "properties":{
+            "prop1":"SET Guarantie: 1 year",
+            "prop2":"",
+            "prop3":"",
+            "prop4":"",
+            "prop5":"",
+            "prop6":"",
+            "prop7":"",
+            "prop8":"",
+            "prop9":"",
+            "prop10":""
+        },
+        "reviews":{
+            "r1":{
+                "name":"Donald Trump",
+                "review":"This is a sample review. It may be a big or small and it has a rate.",
+                "rate":"5"
+            },
+            "r2":{
+                "name":"Jo Biden",
+                "review":"This is a sample review. It may be a big or small and it has a rate.",
+                "rate":"5"
+            },
+            "r3":{
+                "name":"Baraq Obama",
+                "review":"This is a sample review. It may be a big or small and it has a rate.",
+                "rate":"5"
+            }
+        }
+    },
+    "Adidas_SUPERNOVA_RISE_3_RUNNING_SHOES":{
+        "product_name": "Adidas SUPERNOVA RISE 3 RUNNING SHOES",
+        "brand": "Adidas",
+        "brand_image": "../static/Products/brands/adidas.png",
+        "product_img_src_1": "../static/Products/Adidas_SUPERNOVA_RISE_3_RUNNING_SHOES/Adidas_SUPERNOVA_RISE_3_RUNNING_SHOES_img1.png",
+        "product_img_src_2": "../static/Products/Adidas_SUPERNOVA_RISE_3_RUNNING_SHOES/Adidas_SUPERNOVA_RISE_3_RUNNING_SHOES_img2.png",
+        "product_img_src_3": "../static/Products/Adidas_SUPERNOVA_RISE_3_RUNNING_SHOES/Adidas_SUPERNOVA_RISE_3_RUNNING_SHOES_img3.png",
+        "product_img_src_4": "../static/Products/Adidas_SUPERNOVA_RISE_3_RUNNING_SHOES/Adidas_SUPERNOVA_RISE_3_RUNNING_SHOES_img4.png",
+        "product_video": "N/A",
+        "product_price": "150$",
+        "is_new": false,
+        "is_it_in_sales": false,
+        "sales_percent": "-20%",
+        "old_price": "150$",
+        "product_delivery_date": "07/04/2026",
+        "is_favorite": false,
+        "description": "Running shoes with Dreamstrike+ cushioning for comfortable support. The Supernova Rise 3 Running Shoes have been designed for those who are ready to experience our commitment to running performance. With a regular fit and lace closure, they offer comfort and style as you hit the road. Adidas' Dreamstrike+ technology delivers a balance of soft and stable cushioning to match your performance needs, delivering comfortable support, mile after mile. Breathable and supportive, these shoes help your feet feel cool and dry throughout your run. Focus on your fitness without distractions with shoes that mirror your foot shape. Whether you're tackling a marathon or heading out on a casual jog, exercise with confidence in these classic shoes. APMA SEAL OF ACCEPTANCE. APMA is a recognition of a product’s promotion of good foot health.",
+        "product_rating": "5.0",
+        "category": "clothes",
+        "type": "shoes",
+        "is_it_possible_to_buy": true,
+        "related":{
+            "rel1":"Adidas_Adizero_EVO_SL_Shoes",
+            "rel2": "Adidas_Tennis_Climacool_Freelift_T-Shirt_Pro",
+            "rel3": "Adidas_WORKOUT_ESSENTIALS_BASE_WOVEN_SHORT",
+            "rel4": "",
+            "rel5": ""
+        },
+        "properties":{
+            "prop1":"SET Guarantie: 1 year",
+            "prop2":"",
+            "prop3":"",
+            "prop4":"",
+            "prop5":"",
+            "prop6":"",
+            "prop7":"",
+            "prop8":"",
+            "prop9":"",
+            "prop10":""
+        },
+        "reviews":{
+            "r1":{
+                "name":"Donald Trump",
+                "review":"This is a sample review. It may be a big or small and it has a rate.",
+                "rate":"5"
+            },
+            "r2":{
+                "name":"Jo Biden",
+                "review":"This is a sample review. It may be a big or small and it has a rate.",
+                "rate":"5"
+            },
+            "r3":{
+                "name":"Baraq Obama",
+                "review":"This is a sample review. It may be a big or small and it has a rate.",
+                "rate":"5"
+            }
+        }
+    },
+    "Adidas_WORKOUT_ESSENTIALS_BASE_WOVEN_SHORT":{
+        "product_name": "Adidas WORKOUT ESSENTIALS BASE WOVEN SHORT",
+        "brand": "Adidas",
+        "brand_image": "../static/Products/brands/adidas.png",
+        "product_img_src_1": "../static/Products/Adidas_WORKOUT_ESSENTIALS_BASE_WOVEN_SHORT/Adidas_WORKOUT_ESSENTIALS_BASE_WOVEN_SHORT_img1.png",
+        "product_img_src_2": "../static/Products/Adidas_WORKOUT_ESSENTIALS_BASE_WOVEN_SHORT/Adidas_WORKOUT_ESSENTIALS_BASE_WOVEN_SHORT_img2.png",
+        "product_img_src_3": "../static/Products/Adidas_WORKOUT_ESSENTIALS_BASE_WOVEN_SHORT/Adidas_WORKOUT_ESSENTIALS_BASE_WOVEN_SHORT_img3.png",
+        "product_img_src_4": "../static/Products/Adidas_WORKOUT_ESSENTIALS_BASE_WOVEN_SHORT/Adidas_WORKOUT_ESSENTIALS_BASE_WOVEN_SHORT_img4.png",
+        "product_video": "../static/Products/Adidas_WORKOUT_ESSENTIALS_BASE_WOVEN_SHORT/Adidas_WORKOUT_ESSENTIALS_BASE_WOVEN_SHORT_video.mp4",
+        "product_price": "32$",
+        "is_new": false,
+        "is_it_in_sales": true,
+        "sales_percent": "-5%",
+        "old_price": "35$",
+        "product_delivery_date": "07/01/2026",
+        "is_favorite": false,
+        "description": "Breathable shorts with Climacool technology for cool, dry comfort. Hit your training sessions with confidence in the Workout Essentials Base Woven Short. Designed for those who value performance and style, these shorts are your go-to for next-level workouts. Crafted in a plain-weave construction, the fabric provides durability and a lightweight feel, making these shorts a go-to for intense training sessions. Zipper pockets offer securable storage, so you can keep your essentials close to hand. The integrated Climacool technology wicks and disperses sweat for a cool, dry, and distraction-free performance. Quick-drying material works hard to help you feel comfortable, so you can stay focused as you push through. The regular fit offers a comfortable and unrestricted feel, a must-have for energetic routines. A fully elasticized waistband adds secure hold, allowing you to move freely and with confidence. Adidas brings you these innovative workout shorts, a versatile addition to your training wardrobe. Embrace the future of fitness with a performance-driven piece that supports your journey to becoming your best self.",
+        "product_rating": "5.0",
+        "category": "clothes",
+        "type": "pants",
+        "is_it_possible_to_buy": true,
+        "related":{
+            "rel1":"Adidas_Tennis_Climacool_Freelift_T-Shirt_Pro",
+            "rel2": "Adidas_SUPERNOVA_RISE_3_RUNNING_SHOES",
+            "rel3": "Adidas_Adizero_EVO_SL_Shoes",
+            "rel4": "",
+            "rel5": ""
+        },
+        "properties":{
+            "prop1":"SET Guarantie: 1 year",
+            "prop2":"",
+            "prop3":"",
+            "prop4":"",
+            "prop5":"",
+            "prop6":"",
+            "prop7":"",
+            "prop8":"",
+            "prop9":"",
+            "prop10":""
+        },
+        "reviews":{
+            "r1":{
+                "name":"Donald Trump",
+                "review":"This is a sample review. It may be a big or small and it has a rate.",
+                "rate":"5"
+            },
+            "r2":{
+                "name":"Jo Biden",
+                "review":"This is a sample review. It may be a big or small and it has a rate.",
+                "rate":"5"
+            },
+            "r3":{
+                "name":"Baraq Obama",
+                "review":"This is a sample review. It may be a big or small and it has a rate.",
+                "rate":"5"
+            }
+        }
+    },
+    "Adidas_Tennis_Climacool_Freelift_T-Shirt_Pro":{
+        "product_name": "Adidas Tennis Climacool Freelift T-Shirt Pro",
+        "brand": "Adidas",
+        "brand_image": "../static/Products/brands/adidas.png",
+        "product_img_src_1": "../static/Products/Adidas_Tennis_Climacool_Freelift_T-Shirt_Pro/Adidas_Tennis_Climacool_Freelift_T-Shirt_Pro_img1.png",
+        "product_img_src_2": "../static/Products/Adidas_Tennis_Climacool_Freelift_T-Shirt_Pro/Adidas_Tennis_Climacool_Freelift_T-Shirt_Pro_img2.png",
+        "product_img_src_3": "../static/Products/Adidas_Tennis_Climacool_Freelift_T-Shirt_Pro/Adidas_Tennis_Climacool_Freelift_T-Shirt_Pro_img3.png",
+        "product_img_src_4": "../static/Products/Adidas_Tennis_Climacool_Freelift_T-Shirt_Pro/Adidas_Tennis_Climacool_Freelift_T-Shirt_Pro_img4.png",
+        "product_video": "../static/Products/Adidas_Tennis_Climacool_Freelift_T-Shirt_Pro/Adidas_Tennis_Climacool_Freelift_T-Shirt_Pro_video.mp4",
+        "product_price": "70$",
+        "is_new": false,
+        "is_it_in_sales": false,
+        "sales_percent": "0%",
+        "old_price": "70$",
+        "product_delivery_date": "07/01/2026",
+        "is_favorite": false,
+        "description": "Slim-fit tee with Climacool technology to help you feel cool and dry. The Tennis Climacool Freelift T-Shirt Pro is crafted for performance and style. This tee is designed to move with you, offering a flattering silhouette that complements your swing. Climacool technology wicks and disperses sweat, helping you to feel cool and dry. The Freelift construction allows a range of motion, so you can play your game without distractions. Doubleknit fabric construction combines comfort and durability. The BOS logo on the chest adds a touch of adidas heritage to a premium tee that looks and feels good whatever your game.",
+        "product_rating": "5.0",
+        "category": "clothes",
+        "type": "t_shirts",
+        "is_it_possible_to_buy": true,
+        "related":{
+            "rel1":"Adidas_WORKOUT_ESSENTIALS_BASE_WOVEN_SHORT",
+            "rel2": "Adidas_Adizero_EVO_SL_Shoes",
+            "rel3": "Adidas_SUPERNOVA_RISE_3_RUNNING_SHOES",
+            "rel4": "",
+            "rel5": ""
+        },
+        "properties":{
+            "prop1":"SET Guarantie: 1 year",
+            "prop2":"",
+            "prop3":"",
+            "prop4":"",
+            "prop5":"",
+            "prop6":"",
+            "prop7":"",
+            "prop8":"",
+            "prop9":"",
+            "prop10":""
+        },
+        "reviews":{
+            "r1":{
+                "name":"Donald Trump",
+                "review":"This is a sample review. It may be a big or small and it has a rate.",
+                "rate":"5"
+            },
+            "r2":{
+                "name":"Jo Biden",
+                "review":"This is a sample review. It may be a big or small and it has a rate.",
+                "rate":"5"
+            },
+            "r3":{
+                "name":"Baraq Obama",
+                "review":"This is a sample review. It may be a big or small and it has a rate.",
+                "rate":"5"
+            }
+        }
+    },
+    "Movavi_School_Dino_Cap":{
+        "product_name": "Movavi School Dino Cap",
+        "brand": "Movavi School",
+        "brand_image": "../static/Products/brands/movavi_school.png",
+        "product_img_src_1": "../static/Products/Movavi_School_Dino_Cap/Movavi_School_Dino_Cap_img1.png",
+        "product_img_src_2": "../static/Products/Movavi_School_Dino_Cap/Movavi_School_Dino_Cap_img2.png",
+        "product_img_src_3": "../static/Products/Movavi_School_Dino_Cap/Movavi_School_Dino_Cap_img3.png",
+        "product_img_src_4": "../static/Products/Movavi_School_Dino_Cap/Movavi_School_Dino_Cap_img4.png",
+        "product_video": "N/A",
+        "product_price": "4$",
+        "is_new": true,
+        "is_it_in_sales": false,
+        "sales_percent": "0%",
+        "old_price": "",
+        "product_delivery_date": "06/29/2026",
+        "is_favorite": true,
+        "description": "RUSSIAN: Кепка с легендарным google-динозавром. У тебя тоже такая будет! ENGLISH: Cap with the legeng google-dino. You'll have got one too!",
+        "product_rating": "5.0",
+        "category": "clothes",
+        "type": "caps",
+        "is_it_possible_to_buy": true,
+        "related":{
+            "rel1":"",
+            "rel2": "",
+            "rel3": "",
+            "rel4": "",
+            "rel5": ""
+        },
+        "properties":{
+            "prop1":"Color: Black",
+            "prop2":"SET Guarantie: no",
+            "prop3":"",
+            "prop4":"",
+            "prop5":"",
+            "prop6":"",
+            "prop7":"",
+            "prop8":"",
+            "prop9":"",
+            "prop10":""
+        },
+        "reviews":{
+            "r1":{
+                "name":"Timur Kutuev",
+                "review":"This product was selling since may 11 untill may 25 on the Movavi Boost Fair for 768 Movavi Boosts (=300RUB, =4$).",
+                "rate":"5"
+            },
+            "r2":{
+                "name":"Empty",
+                "review":"Empty",
+                "rate":"5"
+            },
+            "r3":{
+                "name":"Empty",
+                "review":"Empty",
+                "rate":"5"
+            }
+        }
+    },
+    "Apple_Macbook_Neo":{
+        "product_name": "Apple MacBook Neo",
+        "brand": "Apple",
+        "brand_image": "../static/Products/brands/apple.png",
+        "product_img_src_1": "../static/Products/apple_macbook_neo/apple_macbook_neo_img1.png",
+        "product_img_src_2": "../static/Products/apple_macbook_neo/apple_macbook_neo_img2.png",
+        "product_img_src_3": "../static/Products/apple_macbook_neo/apple_macbook_neo_img3.png",
+        "product_img_src_4": "../static/Products/apple_macbook_neo/apple_macbook_neo_img4.png",
+        "product_video": "N/A",
+        "product_price": "699$",
+        "is_new": true,
+        "is_it_in_sales": false,
+        "sales_percent": "",
+        "old_price": "",
+        "product_delivery_date": "07/05/2026",
+        "is_favorite": true,
+        "description": "The magic of Mac at a surprising price.",
+        "product_rating": "5.0",
+        "category": "techniques",
+        "type": "computers",
+        "is_it_possible_to_buy": true,
+        "related":{
+            "rel1":"apple_iphone_17",
+            "rel2": "apple_iphone_17_pro",
+            "rel3": "sony_playstation_5",
+            "rel4": "",
+            "rel5": ""
+        },
+        "properties":{
+            "prop1":"Color: Indigo",
+            "prop2":"Memory: 512GB",
+            "prop3":"Display: 13inch",
+            "prop4":"Processor: Apple A18 Pro",
+            "prop5":"OS: MacOS 26",
+            "prop6":"Feauters: MagicKeyboard, TouchID",
+            "prop7":"SET Guarantie: 1 year",
+            "prop8":"",
+            "prop9":"",
+            "prop10":""
+        },
+        "reviews":{
+            "r1":{
+                "name":"Empty",
+                "review":"Empty.",
+                "rate":"5"
+            },
+            "r2":{
+                "name":"Empty",
+                "review":"Empty.",
+                "rate":"5"
+            },
+            "r3":{
+                "name":"Empty",
+                "review":"Empty.",
+                "rate":"5"
+            }
+        }
+    },
+    "IKEA_JÄTTEBO":{
+        "product_name": "IKEA JÄTTEBO",
+        "brand": "IKEA",
+        "brand_image": "../static/Products/brands/IKEA.png",
+        "product_img_src_1": "../static/Products/IKEA_JÄTTEBO/IKEA_JÄTTEBO_img1.png",
+        "product_img_src_2": "../static/Products/IKEA_JÄTTEBO/IKEA_JÄTTEBO_img2.png",
+        "product_img_src_3": "../static/Products/IKEA_JÄTTEBO/IKEA_JÄTTEBO_img3.png",
+        "product_img_src_4": "../static/Products/IKEA_JÄTTEBO/IKEA_JÄTTEBO_img4.png",
+        "product_video": "../static/Products/IKEA_JÄTTEBO/IKEA_JÄTTEBO_video.mp4",
+        "product_price": "2713$",
+        "is_new": false,
+        "is_it_in_sales": true,
+        "sales_percent": "-5%",
+        "old_price": "2750$",
+        "product_delivery_date": "07/19/2026",
+        "is_favorite": false,
+        "description": "Enjoy long movie nights and comfy socializing with friends in JÄTTEBO modular sofa. Use this combination with a relaxing chaise longue as it is – or create a customized sofa for you and your home.",
+        "product_rating": "5.0",
+        "category": "furniture",
+        "type": "sofas",
+        "is_it_possible_to_buy": true,
+        "related":{
+            "rel1":"",
+            "rel2": "",
+            "rel3": "",
+            "rel4": "",
+            "rel5": ""
+        },
+        "properties":{
+            "prop1":"4-seat mod sofa w chaise, right/Samsala dark yellow-green",
+            "prop2":"Washable cover",
+            "prop3":"SET Guarantie: 10 years",
+            "prop4":"",
+            "prop5":"",
+            "prop6":"",
+            "prop7":"",
+            "prop8":"",
+            "prop9":"",
+            "prop10":""
+        },
+        "reviews":{
+            "r1":{
+                "name":"Empty",
+                "review":"Empty.",
+                "rate":"5"
+            },
+            "r2":{
+                "name":"Empty",
+                "review":"Empty.",
+                "rate":"5"
+            },
+            "r3":{
+                "name":"Empty",
+                "review":"Empty.",
+                "rate":"5"
+            }
+        }
+    },
+    "IKEA_NEIDEN":{
+        "product_name": "IKEA NEIDEN",
+        "brand": "IKEA",
+        "brand_image": "../static/Products/brands/IKEA.png",
+        "product_img_src_1": "../static/Products/IKEA_NEIDEN/IKEA_NEIDEN_img1.png",
+        "product_img_src_2": "../static/Products/IKEA_NEIDEN/IKEA_NEIDEN_img2.png",
+        "product_img_src_3": "../static/Products/IKEA_NEIDEN/IKEA_NEIDEN_img3.png",
+        "product_img_src_4": "../static/Products/IKEA_NEIDEN/IKEA_NEIDEN_img4.png",
+        "product_video": "N/A",
+        "product_price": "95$",
+        "is_new": false,
+        "is_it_in_sales": true,
+        "sales_percent": "-5%",
+        "old_price": "100$",
+        "product_delivery_date": "07/13/2026",
+        "is_favorite": false,
+        "description": "The natural solid wood is beautiful as it is or you can make it more personal by staining, painting or waxing it. Also, the bed frame is high enough so you can place storage boxes underneath.",
+        "product_rating": "5.0",
+        "category": "furniture",
+        "type": "beds",
+        "is_it_possible_to_buy": true,
+        "related":{
+            "rel1":"",
+            "rel2": "",
+            "rel3": "",
+            "rel4": "",
+            "rel5": ""
+        },
+        "properties":{
+            "prop1":"Bed frame, pine/Luröy",
+            "prop2":"SET Guarantie: 10 years",
+            "prop3":"",
+            "prop4":"",
+            "prop5":"",
+            "prop6":"",
+            "prop7":"",
+            "prop8":"",
+            "prop9":"",
+            "prop10":""
+        },
+        "reviews":{
+            "r1":{
+                "name":"Empty",
+                "review":"Empty.",
+                "rate":"5"
+            },
+            "r2":{
+                "name":"Empty",
+                "review":"Empty.",
+                "rate":"5"
+            },
+            "r3":{
+                "name":"Empty",
+                "review":"Empty.",
+                "rate":"5"
+            }
+        }
+    },
+    "IKEA_SANELA":{
+        "product_name": "IKEA SANELA",
+        "brand": "IKEA",
+        "brand_image": "../static/Products/brands/IKEA.png",
+        "product_img_src_1": "../static/Products/IKEA_SANELA/IKEA_SANELA_img1.png",
+        "product_img_src_2": "../static/Products/IKEA_SANELA/IKEA_SANELA_img2.png",
+        "product_img_src_3": "../static/Products/IKEA_SANELA/IKEA_SANELA_img3.png",
+        "product_img_src_4": "../static/Products/IKEA_SANELA/IKEA_SANELA_img4.png",
+        "product_video": "../static/Products/IKEA_SANELA/IKEA_SANELA_video.mp4",
+        "product_price": "86$",
+        "is_new": false,
+        "is_it_in_sales": true,
+        "sales_percent": "-5%",
+        "old_price": "90$",
+        "product_delivery_date": "07/02/2026",
+        "is_favorite": false,
+        "description": "SANELA curtains are made of pure cotton velvet, adding gorgeous depth to the dark blue tone. The pleats fall elegantly and the fabric filters light gently. Multi-way header for different hanging options.",
+        "product_rating": "5.0",
+        "category": "furniture",
+        "type": "curtains",
+        "is_it_possible_to_buy": true,
+        "related":{
+            "rel1":"",
+            "rel2": "",
+            "rel3": "",
+            "rel4": "",
+            "rel5": ""
+        },
+        "properties":{
+            "prop1":"Curtains, 1 pair, dark blue/with heading tape, 55x98",
+            "prop2":"Room-darkening",
+            "prop3":"SET Guarantie: 10 years",
+            "prop4":"",
+            "prop5":"",
+            "prop6":"",
+            "prop7":"",
+            "prop8":"",
+            "prop9":"",
+            "prop10":""
+        },
+        "reviews":{
+            "r1":{
+                "name":"Empty",
+                "review":"Empty.",
+                "rate":"5"
+            },
+            "r2":{
+                "name":"Empty",
+                "review":"Empty.",
+                "rate":"5"
+            },
+            "r3":{
+                "name":"Empty",
+                "review":"Empty.",
+                "rate":"5"
+            }
+        }
+    },
+    "IKEA_KRYLBO":{
+        "product_name": "IKEA KRYLBO",
+        "brand": "IKEA",
+        "brand_image": "../static/Products/brands/IKEA.png",
+        "product_img_src_1": "../static/Products/IKEA_KRYLBO/IKEA_KRYLBO_img1.png",
+        "product_img_src_2": "../static/Products/IKEA_KRYLBO/IKEA_KRYLBO_img2.png",
+        "product_img_src_3": "../static/Products/IKEA_KRYLBO/IKEA_KRYLBO_img3.png",
+        "product_img_src_4": "../static/Products/IKEA_KRYLBO/IKEA_KRYLBO_img4.png",
+        "product_video": "N/A",
+        "product_price": "124$",
+        "is_new": false,
+        "is_it_in_sales": true,
+        "sales_percent": "-5%",
+        "old_price": "130$",
+        "product_delivery_date": "07/11/2026",
+        "is_favorite": false,
+        "description": "On this upholstered swivel chair with soft padding, you sit comfortably for a long time. The clean-lined and modern design goes with most decor styles and matches KRYLBO chair perfectly.",
+        "product_rating": "5.0",
+        "category": "furniture",
+        "type": "chairs",
+        "is_it_possible_to_buy": true,
+        "related":{
+            "rel1":"",
+            "rel2": "",
+            "rel3": "",
+            "rel4": "",
+            "rel5": ""
+        },
+        "properties":{
+            "prop1":"Swivel chair, Tonerud dark beige",
+            "prop2":"Tested for: 243 lb",
+            "prop3":"SET Guarantie: 10 years",
+            "prop4":"",
+            "prop5":"",
+            "prop6":"",
+            "prop7":"",
+            "prop8":"",
+            "prop9":"",
+            "prop10":""
+        },
+        "reviews":{
+            "r1":{
+                "name":"Empty",
+                "review":"Empty.",
+                "rate":"5"
+            },
+            "r2":{
+                "name":"Empty",
+                "review":"Empty.",
+                "rate":"5"
+            },
+            "r3":{
+                "name":"Empty",
+                "review":"Empty.",
+                "rate":"5"
+            }
+        }
+    },
+    "IKEA_SKOGSTA":{
+        "product_name": "IKEA SKOGSTA",
+        "brand": "IKEA",
+        "brand_image": "../static/Products/brands/IKEA.png",
+        "product_img_src_1": "../static/Products/IKEA_SKOGSTA/IKEA_SKOGSTA_img1.png",
+        "product_img_src_2": "../static/Products/IKEA_SKOGSTA/IKEA_SKOGSTA_img2.png",
+        "product_img_src_3": "../static/Products/IKEA_SKOGSTA/IKEA_SKOGSTA_img3.png",
+        "product_img_src_4": "../static/Products/IKEA_SKOGSTA/IKEA_SKOGSTA_img4.png",
+        "product_video": "N/A",
+        "product_price": "618$",
+        "is_new": false,
+        "is_it_in_sales": true,
+        "sales_percent": "-5%",
+        "old_price": "650$",
+        "product_delivery_date": "07/15/2026",
+        "is_favorite": false,
+        "description": "Every table is unique, with varying grain pattern and natural color shifts that are part of the charm of solid wood.",
+        "product_rating": "5.0",
+        "category": "furniture",
+        "type": "tables",
+        "is_it_possible_to_buy": true,
+        "related":{
+            "rel1":"",
+            "rel2": "",
+            "rel3": "",
+            "rel4": "",
+            "rel5": ""
+        },
+        "properties":{
+            "prop1":"Dining table, acacia/black, 92 1/2x39 3/8",
+            "prop2":"Solid wood",
+            "prop3":"SET Guarantie: 10 years",
+            "prop4":"",
+            "prop5":"",
+            "prop6":"",
+            "prop7":"",
+            "prop8":"",
+            "prop9":"",
+            "prop10":""
+        },
+        "reviews":{
+            "r1":{
+                "name":"Empty",
+                "review":"Empty.",
+                "rate":"5"
+            },
+            "r2":{
+                "name":"Empty",
+                "review":"Empty.",
+                "rate":"5"
+            },
+            "r3":{
+                "name":"Empty",
+                "review":"Empty.",
+                "rate":"5"
+            }
+        }
+    },
+    "IKEA_DEKAD":{
+        "product_name": "IKEA DEKAD",
+        "brand": "IKEA",
+        "brand_image": "../static/Products/brands/IKEA.png",
+        "product_img_src_1": "../static/Products/IKEA_DEKAD/IKEA_DEKAD_img1.png",
+        "product_img_src_2": "../static/Products/IKEA_DEKAD/IKEA_DEKAD_img2.png",
+        "product_img_src_3": "../static/Products/IKEA_DEKAD/IKEA_DEKAD_img3.png",
+        "product_img_src_4": "../static/Products/IKEA_DEKAD/IKEA_DEKAD_img4.png",
+        "product_video": "N/A",
+        "product_price": "9,5$",
+        "is_new": false,
+        "is_it_in_sales": true,
+        "sales_percent": "-5%",
+        "old_price": "10$",
+        "product_delivery_date": "06/27/2026",
+        "is_favorite": true,
+        "description": "A modern quartz movement is hidden in this alarm clock with a clean and classic design. So you avoid being disturbed by a ticking sound as time passes, but you’ll surely hear it when it’s time to wake up.",
+        "product_rating": "5.0",
+        "category": "furniture",
+        "type": "clocks",
+        "is_it_possible_to_buy": true,
+        "related":{
+            "rel1":"",
+            "rel2": "",
+            "rel3": "",
+            "rel4": "",
+            "rel5": ""
+        },
+        "properties":{
+            "prop1":"Alarm clock, black",
+            "prop2":"SET Guarantie: 10 years",
+            "prop3":"",
+            "prop4":"",
+            "prop5":"",
+            "prop6":"",
+            "prop7":"",
+            "prop8":"",
+            "prop9":"",
+            "prop10":""
+        },
+        "reviews":{
+            "r1":{
+                "name":"Empty",
+                "review":"Empty.",
+                "rate":"5"
+            },
+            "r2":{
+                "name":"Empty",
+                "review":"Empty.",
+                "rate":"5"
+            },
+            "r3":{
+                "name":"Empty",
+                "review":"Empty.",
+                "rate":"5"
+            }
+        }
+    }
+}

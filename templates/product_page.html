@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="site-title">SET</title>
+    <link rel="stylesheet" href="../static/style/fonts.css">
+    <link rel="stylesheet" href="../static/style/general.css">
+    <link rel="stylesheet" href="../static/style/nav.css">
+    <link rel="stylesheet" href="../static/style/footer.css">
+    <link rel="stylesheet" href="../static/style/index-style.css">
+    <link rel="stylesheet" href="../static/style/main.css">
+    <link rel="stylesheet" href="../static/style/order-card.css">
+    <link rel="icon" href="../static/logo/icon.png">
+    <link rel="stylesheet" href="../static/style/loading-screen.css">
+    <link rel="stylesheet" href="../static/style/nav-catalog.css">
+    <link rel="stylesheet" href="../static/style/SET-card.css">
+    <link rel="stylesheet" href="../static/style/profile-main.css">
+    <link rel="stylesheet" href="../static/style/.card.css">
+    <link rel="stylesheet" href="../static/style/product_page.css">
+</head>
+<body id ="body" class="body" style="background-color: #E5FFCC;">
+    <div class="navigation-wreaper"></div>
+    <div class="product-page">
+        <main class="product-page-desktop green">
+                  <div class="product-page-block-1">
+                      <div class="ppb1-info">
+                          <h1 id="pp_t">name</h1>
+                          <div class="ppb1-info-price">
+                              <div class="ppb1-info-price-labels-and-oldprice ppiplopd">
+                                  <div class="ppb1-info-price-label-new" id="Limelight">NEW</div>
+                                  <div class="ppb1-info-price-label-sales" id="Limelight">${_data[product_id].sales_percent}</div><p class="old_pr" id="Limelight">${_data[product_id].old_price}</p>
+                              </div>
+                              <div class="ppb1-info-price-price">
+                                  <h2 class="pp__price">0</h2>
+                              </div>
+                          </div>
+                          <div class="ppb1-info-buttons">
+                              <button class="black" id="regular">Add to Cart</button>
+                              <button class="black ppblfavd"><img src="../static/icons/Light/Star.svg"></button>
+                              <button class="black pp_copy" onclick="navigator.clipboard.writeText(window.location.href); alert('Copied');"><img src="../static/icons/Light/Copy.svg"></button>
+                          </div>
+                          <div class="ppb1-info-rating-and-delivery">
+                              <div class="ppb1-info-rating">
+                                  <img src="../static/icons/Dark/Star.svg">
+                                  <p class="pp_p_r" id="regular">${_data[product_id].product_rating}</p>
+                              </div>
+                              <div class="ppb1-info-delivery">
+                                  <img src="../static/icons/Dark/Clock.svg">
+                                  <p class="pp_dd" id="regular">${_data[product_id].product_delivery_date}</p>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="ppb1-properties">
+                          <h2>Properties</h2>
+                          <p class="pp__pr" id="regular"></p>
+                      </div>
+                  </div>
+                  <div class="product-page-block-2">
+                      <div class="ppb2-photos">
+                            <img class="pp_p1_div" id="p1" src="${_data[product_id].product_img_src_1}">
+                            <img class="pp_p2_div" id="p2" src="${_data[product_id].product_img_src_2}">
+                            <img class="pp_p3_div" id="p3" src="${_data[product_id].product_img_src_3}">
+                            <img class="pp_p4_div" id="p4" src="${_data[product_id].product_img_src_4}">
+                            <img class="pp_p5_div" id="p5" src="../static/Products/star/video.svg">
+                      </div>
+                      <div class="ppb2-description">
+                          <h2>Description</h2>
+                          <p id="regular" class="pp__description">${_data[product_id].description}</p>
+                      </div>
+                  </div>
+              </main>
+              <main class="product-page-mobile green">
+                  <div class="pp-m-photos">
+                      <div class="pp-m-photo pp-m-photo1" id="p1m"><img src="${_data[product_id].product_img_src_1}"></div>
+                      <div class="pp-m-photo pp-m-photo2" id="p2m" ><img src="${_data[product_id].product_img_src_2}"></div>
+                      <div class="pp-m-photo pp-m-photo3" id="p3m"><img src="${_data[product_id].product_img_src_3}"></div>
+                      <div class="pp-m-photo pp-m-photo4" id="p4m"><img src="${_data[product_id].product_img_src_4}"></div>
+                      <div class="pp-m-photo pp-m-photo5" id="p5m"><img src="../static/Products/star/video.svg"></div>
+                  </div>
+                  <h1 class="pp_tm"></h1>
+                  <div class="pp-m-labels-and-price">
+                      <div class="pp-m-labels-and-old-price">
+                          <div class="pp-m-labels ppiplopdm">
+                              <div class="ppb1-info-price-label-new" id="Limelight">NEW</div>
+                                  <div class="ppb1-info-price-label-sales ppb1-info-price-label-salesm" id="Limelight">${_data[product_id].sales_percent}</div>
+                          </div>
+                          <div class="pp-m-old-price">
+                              <p class="old_prm" id="Limelight">${_data[product_id].old_price}</p>
+                          </div>
+                      </div>
+                      <div class="pp-m-price pp__pricem"><p id="Limelight">${_data[product_id].product_price}</p></div>
+                  </div>
+                  <div class="pp-m-buttons">
+                      <button class="black" id="regular">Add to Cart</button>
+                      <button class="black ppblfavdm"><img src="../static/icons/Light/Star.svg"></button>
+                      <button class="black pp_copy" onclick="navigator.clipboard.writeText(window.location.href); alert('Copied');"><img src="../static/icons/Light/Copy.svg"></button>
+                  </div>
+                  <div class="pp-m-rating-and-delivery">
+                      <div class="ppb1-info-rating">
+                          <img src="../static/icons/Dark/Star.svg">
+                          <p class="pp_p_rm" id="regular">5.0</p>
+                      </div>
+                      <div class="ppb1-info-delivery">
+                          <img src="../static/icons/Dark/Clock.svg">
+                          <p class="pp_ddm" id="regular">07/13/2026</p>
+                      </div>
+                  </div>
+                  <div class="pp-m-description">
+                      <h2>Description</h2>
+                      <p class="pp__descriptionm" id="regular">${_data[product_id].description}</p>
+                  </div>
+                  <div class="pp-m-properties">
+                      <h2>Properties</h2>
+                      <p id="regular">
+                          <ul class="pp__prm"></ul>
+                      </p>
+                  </div>
+              </main>
+              <div class="pp-related-desktop brown">
+                  <h2>Related</h2>
+                  <div class="pp-related-container"></div>
+              </div>
+              <div class="pp-related-mobile brown">
+                  <h2>Related</h2>
+                  <div class="pp-related-container-m">
+                  </div>
+              </div>
+              <div class="pp-reviews green">
+                  <div class="reviews-title">
+                      <h2>Reviews</h2>
+                      <div class="pp-review-rate">
+                          <img src="../static/icons/Dark/Star.svg">
+                          <p id="limelight" class="pp___rating"></p>
+                      </div>
+                      <button class="black" id="regular">+</button>
+                  </div>
+                  <div class="pp-reviews-container"></div>
+              </div>
+    </div>
+    <div class="photos_looking green" id="photos_looking">
+        <button class="black" id="pl-back">Back</button>
+        <div class="pl_container">
+            <div class="plc_photo plc_photo1" id="plc_photo1"><img src=""></div>
+            <div class="plc_photo plc_photo2" id="plc_photo2"><img src=""></div>
+            <div class="plc_photo plc_photo3" id="plc_photo3"><img src=""></div>
+            <div class="plc_photo plc_photo4" id="plc_photo4"><img src=""></div>
+            <div class="plc_photo plc_photo5" id="plc_photo5"><video src="" controls muted loop></video></div>
+        </div>
+        <div class="pl-buttons">
+            <button class="black" id="pl-button-back"><</button>
+            <button class="black" id="pl-button-next">></button>
+        </div>
+        <p id="pl_name">hstsrthrtghsrthhrt</p>
+    </div>
+    <div class="green footer"></div>
+    <div class="nav-catalog green" id="nav-catalog"></div>
+    <div id="loading-screen"><h1>SET</h1></div>
+    <div class="nav-mobile"></div>
+    <!--JS-->
+    <script src="../static/js/navigation.js"></script>
+    <script src="../static/js/nav-catalog.js"></script>
+    <script src="../static/js/managing-card.js"></script>
+    <script src="../static/js/main-ads-buttons.js"></script>
+    <script src="../static/js/managing-footer.js"></script>
+    <script src="../static/js/loading-screen.js"></script>
+    <script src="../static/js/pp.js"></script>
+    <script src="../static/js/photos_looking.js"></script>
+    <script src="../static/js/AWESOME.js" defer></script>
+</body>
+</html>

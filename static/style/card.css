@@ -1,0 +1,345 @@
+.card{
+    transition: 0.25s;
+    text-align: left;
+    transform: translateY(50px);
+    height: 360px;
+    width: 200px;
+    border-radius: 20px;
+    .card-image{
+        width: 175px;
+        height: 125px;
+        border-radius: 15px;
+        img{
+            width: 100%;
+            height: 100%;
+            border-radius: 15px;
+        }
+    }
+    padding: 10px;
+    .card-p{
+        margin-top: 15px;
+        height: 67px;
+        width: 175px;
+    }
+    div{
+        display: inline-block;
+    }
+    .card-price{
+        transform: translateX(-10px);
+        height: 40px;
+        width: 67%;
+        text-align: right;
+        position: fixed;
+        right: 0;
+        h4{
+            font-size: 32px;
+        }
+    }
+    .card-ip{
+        height: 20px;
+        width: 50%;
+        h4{
+            font-size: 16px;
+        }
+    }
+    .card-f{
+        height: 16px;
+        width: 16px;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .card-manufacturer{
+        width: 100%;
+        height: 24px;
+        .c-m-image{
+            height: 24px;
+            width: 24px;
+            border-radius: 12px;
+            img{
+                height: 100%;
+                width: 100%;
+                border-radius: 12px;
+            }
+        }
+        .c-m-p{
+            margin-left: 5px;
+            transform: translateY(-6px);
+            p{
+                    font-size: 16px;
+            }
+        }
+        margin-bottom: 10px;
+    }
+    .card-new{
+        width: 60px;
+        height: 20px;
+        text-align: center;
+        color: white;
+        border-radius: 10px;
+        transform: translateY(-20px);
+        h4{
+            color: #e0e0e0;
+        }
+    }
+    .card-percent{
+        width: 60px;
+        height: 20px;
+        text-align: center;
+        h4{
+            color: #e0e0e0;
+        }
+        border-radius: 10px;
+        background-color: #FF0000;
+        transform: translateY(-20px);
+    }
+    .card-delivery{
+        position: fixed;
+        bottom: 12.5px;
+        left: 12.5px;
+        margin: 0;
+        text-align: center;
+        width: 175px;
+        padding: 3px;
+        background-color: #1e1e1e;
+        border-radius: 60px;
+        p{
+            font-size: 16px;
+            transform: translateY(-2px);
+        }
+        p, img{
+            display: inline-block;
+        }
+        img{
+            height: 16px;
+            margin-right: 4px;
+        }
+    }
+}
+.new0{
+    .card-new{
+        display: none;
+    }
+}
+.favorite0{
+    .card-f{
+        display: none;
+    }
+}
+#card-brown{
+        background-color: rgba(255, 229, 204, 0.5);
+        border: 1px solid #994D00;
+        .card-new{
+            background-color: #994D00;
+        }
+        .card-percent{
+            display: none;
+        }
+        .card-delivery{
+            background-color: #994D00;
+        }
+}
+#card-green{
+        background-color: rgba(229, 255, 204, 0.5);
+        border: 1px solid rgba(77, 153, 0, 1);
+        .card-new{
+            background-color: rgba(77, 153, 0, 1);
+        }
+        .card-percent{
+            display: none;
+        }
+        .card-delivery{
+            background-color: rgba(77, 153, 0, 1);
+        }
+}
+#card-brown-s{
+        background-color: rgba(255, 229, 204, 0.5);
+        border: 1px solid #FF0000;
+        .card-new{
+            background-color: #994D00;
+        }
+        .card-image{
+            transform: translateY(-10px);
+        }
+        .card-p{
+            transform: translateY(-20px);
+        }
+        .card-manufacturer{
+            transform: translateY(-20px);
+        }
+        .card-price{
+            transform: translateY(-20px) translateX(-10px);
+            h4{
+                color: #FF0000;
+            }
+        }
+        .card-ip{
+            transform: translateY(-20px);
+        }
+        .card-f{
+            transform: translateY(-20px);
+        }
+        .card-delivery{
+            background-color: #FF0000;
+        }
+}
+#card-green-s{
+        background-color: rgba(229, 255, 204, 0.5);
+        border: 1px solid #FF0000;
+        .card-new{
+            background-color: rgba(77, 153, 0, 1);
+        }
+        .card-image{
+            transform: translateY(-10px);
+        }
+        .card-p{
+            transform: translateY(-20px);
+        }
+        .card-manufacturer{
+            transform: translateY(-20px);
+        }
+        .card-price{
+            transform: translateY(-20px) translateX(-10px);
+            h4{
+                color: #FF0000;
+            }
+        }
+        .card-ip{
+            transform: translateY(-20px);
+        }
+        .card-f{
+            transform: translateY(-20px);
+        }
+        .card-delivery{
+            background-color: #FF0000;
+        }
+}
+#card-green-t, #card-brown-t{
+        .card-image{
+            transform: translateY(-10px);
+        }
+        .card-p{
+            transform: translateY(-20px);
+        }
+        .card-manufacturer{
+            transform: translateY(-20px);
+        }
+        .card-price{
+            transform: translateY(-20px) translateX(-10px);
+        }
+        .card-ip{
+            transform: translateY(-20px);
+        }
+        .card-f{
+            transform: translateY(-20px);
+        }
+        .card-percent{
+            display: none;
+        }
+}
+.new1#card-green, .new1#card-brown{
+    .card-image{
+            transform: translateY(-10px);
+        }
+        .card-p{
+            transform: translateY(-20px);
+        }
+        .card-manufacturer{
+            transform: translateY(-20px);
+        }
+        .card-price{
+            transform: translateY(-20px) translateX(-10px);
+        }
+        .card-ip{
+            transform: translateY(-20px);
+        }
+    .card-new{
+        margin-left: 60px;
+    }
+}
+.new0#card-green-s, .new0#card-brown-s{
+    .card-percent{
+        margin-left: 60px;
+    }
+}
+.new1#card-green-s, .new1#card-brown-s{
+    .card-new{
+        margin-left: 25px;
+    }
+}
+.new1#card-green-t, .new1#card-brown-t{
+    .card-new{
+        margin-left: 25px;
+    }
+}
+.top5block  a #card-green-t, .top5block  a #card-green-t, .top5block  a #card-green-t{
+    background-color: rgba(229, 255, 204, 0.5);
+        border: 1px solid rgba(77, 153, 0, 1);
+    .card-new{
+        background-color: rgba(77, 153, 0, 1);
+        
+    }
+}
+.top5block  a #card-brown-t, .top5block  a #card-brown-t, .top5block  a #card-brown-t{
+    background-color: rgba(255, 229, 204, 0.5);
+    border: 1px solid #994D00;
+    .card-new{
+        background-color: #994D00;
+        
+    }
+}
+.top5block  a:nth-child(1) #card-green-t, .top5block  a:nth-child(1) #card-brown-t{
+    border: 1px solid rgba(153, 140, 0, 1);
+    background-color: rgba(255, 251, 204, 0.5);
+    .card-new{
+        background-color: rgba(153, 140, 0, 1);
+    }
+}
+.top5block  a:nth-child(2) #card-green-t, .top5block  a:nth-child(2) #card-brown-t{
+    border: 1px solid rgba(224, 224, 224, 1);
+    background-color: rgba(229, 229, 229, 0.5);
+    .card-new{
+        background-color: rgba(224, 224, 224, 1);
+        h4{
+            color: #1e1e1e;
+        }
+    }
+}
+.top5block  a:nth-child(3) #card-green-t, .top5block  a:nth-child(3) #card-brown-t{
+    border: 1px solid rgba(153, 77, 0, 1);
+    background-color: rgba(255, 229, 204, 0.5);
+    .card-new{
+        background-color: rgba(153, 77, 0, 1);
+    }
+}
+.top5block.green, .favorite-block.green{
+    background-color: rgba(229, 255, 204, 0.5);
+    border: 1px solid rgba(77, 153, 0, 1);
+}
+.top5block.brown, .favorite-block.brown{
+    background-color: rgba(255, 229, 204, 0.5);
+    border: 1px solid #994D00;
+}
+.top5block, .favorite-block{
+    margin-top: 36px;
+    border-radius: 15px;
+    padding: 16px;
+    width: auto;
+    max-width: 75%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    .card{
+        transform: translateY(0);
+    }
+}
+.card:hover{
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.5);
+    transition: 0.25s;
+}
+.card-f{
+    display: flex;
+}
