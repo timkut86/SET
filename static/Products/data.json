@@ -170,7 +170,7 @@
                 "rate":"5"
             },
             "r3":{
-                "name":"Baraq Obama",
+                "name":"Kim Jong Un",
                 "review":"This is a sample review. It may be a big or small and it has a rate.",
                 "rate":"5"
             }
@@ -644,10 +644,10 @@
         "product_name": "Apple MacBook Neo",
         "brand": "Apple",
         "brand_image": "../static/Products/brands/apple.png",
-        "product_img_src_1": "../static/Products/apple_macbook_neo/apple_macbook_neo_img1.png",
-        "product_img_src_2": "../static/Products/apple_macbook_neo/apple_macbook_neo_img2.png",
-        "product_img_src_3": "../static/Products/apple_macbook_neo/apple_macbook_neo_img3.png",
-        "product_img_src_4": "../static/Products/apple_macbook_neo/apple_macbook_neo_img4.png",
+        "product_img_src_1": "../static/Products/Apple_Macbook_Neo/Apple_Macbook_Neo_img1.png",
+        "product_img_src_2": "../static/Products/Apple_Macbook_Neo/Apple_Macbook_Neo_img2.png",
+        "product_img_src_3": "../static/Products/Apple_Macbook_Neo/Apple_Macbook_Neo_img3.png",
+        "product_img_src_4": "../static/Products/Apple_Macbook_Neo/Apple_Macbook_Neo_img4.png",
         "product_video": "N/A",
         "product_price": "699$",
         "is_new": true,
