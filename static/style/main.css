@@ -96,10 +96,43 @@ main{
         }
     }
     #main-ad-1 .ad{
-        background-color: orange;
+        width: 100%;
+        background-color: #f6f5f8;
+        padding: 32px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        img{
+            width: 15%;
+            min-width: 200px;
+            margin-bottom: 16px;
+        }
+        h5{
+            font-size: 24px;
+            margin-bottom: 16px;
+            color: #E0E0E0;
+        }
     }
     #main-ad-2 .ad{
-        background-color: red;
+        width: 100%;
+        background-color: #f6f5f8;
+        padding: 32px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        img{
+            width: 7%;
+            min-width: 70px;
+            margin-bottom: 16px;
+            border-radius: 100%;
+        }
+        h5{
+            font-size: 24px;
+            margin-bottom: 16px;
+            color: #E0E0E0;
+        }
     }
     #main-ad-3 .ad{
         text-align: center;
@@ -144,7 +177,27 @@ main{
         }
     }
     #main-ad-5 .ad{
-        background-color: green;
+        width: 100%;
+        background-color: black;
+        padding: 32px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        img{
+            width: 20%;
+            min-width: 200px;
+            margin-bottom: 16px;
+        }
+        h5{
+            font-size: 24px;
+            margin-bottom: 16px;
+            color: #E0E0E0;
+        }
+        button{
+            background-color: #E0E0E0;
+            color: #1E1E1E;
+        }
     }
     .manage-cart{
         width: 100%;

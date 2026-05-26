@@ -1359,9 +1359,9 @@ function fca(__type){
     }
 }
 
-var timer = 200;
+var timer = 400;
 var timer = localStorage.getItem("timer");
-if(timer == "null") timer = 200;
+if(timer == "null") timer = 400;
 var mb_data = localStorage.getItem('mb_data');
 if(mb_data != null){
     if(mb_data == 0){

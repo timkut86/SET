@@ -123,12 +123,14 @@ fetch("../static/Products/data.json")
     _add("Apple_Macbook_Neo", "green", "cardss")
     _add("Lego_Minecraft_Mini_Biomes", "green", "cardss");
     _add("Movavi_School_Dino_Cap", "green", "cardss");
+    _add("Samsung_65_inch_Class_Neo_QLED_QN990F", "green", "cardss")
     _add("Adidas_WORKOUT_ESSENTIALS_BASE_WOVEN_SHORT", "green", "cardss")
     _add("IKEA_JÄTTEBO", "green", "cardss")
     _add("sony_playstation_5", "green", "cardss")
     _add("apple_iphone_17_pro", "green", "cardss")
     _add("IKEA_NEIDEN", "green", "cardss")
     _add("IKEA_KRYLBO", "green", "cardss")
+    _add("Samsung_Bespoke_AI_3_Door_French_Door", "green", "cardss")
 
     _add("sony_playstation_5", "green", "products-block-container")
     _add("apple_iphone_17_pro", "green", "products-block-container")
@@ -148,6 +150,8 @@ fetch("../static/Products/data.json")
     _add("IKEA_KRYLBO", "green", "products-block-container")
     _add("IKEA_SKOGSTA", "green", "products-block-container")
     _add("IKEA_DEKAD", "green", "products-block-container")
+    _add("Samsung_65_inch_Class_Neo_QLED_QN990F", "green", "products-block-container")
+    _add("Samsung_Bespoke_AI_3_Door_French_Door", "green", "products-block-container")
 
     _add("Apple_Macbook_Neo", "green", "cc_for_you")
     _add("Lego_DC_Arkham_Asylum", "green", "cc_for_you")
@@ -157,6 +161,7 @@ fetch("../static/Products/data.json")
     _add("apple_iphone_17_pro", "green", "cc_for_you")
     _add("Lego_Minecraft_Mini_Biomes", "green", "cc_for_you")
     _add("Lego_Technic_Jeep_Wrangler_Rubicon_SUV", "green", "cc_for_you")
+    _add("Samsung_Bespoke_AI_3_Door_French_Door", "green", "cc_for_you")
 
     _add("apple_iphone_17_pro", "green", "cc_for_trends")
     _add("Lego_Minecraft_Mini_Biomes", "green", "cc_for_trends")
@@ -202,9 +207,10 @@ fetch("../static/Products/data.json")
     _add("apple_iphone_17_pro", "white", "fbc_")
     _add("Lego_Minecraft_Mini_Biomes", "white", "fbc_")
     _add("Lego_Technic_Jeep_Wrangler_Rubicon_SUV", "white", "fbc_")
+    _add("Samsung_Bespoke_AI_3_Door_French_Door", "white", "fbc_")
 
-    const product_id = localStorage.getItem('product_id');
-    console.log(_data[product_id].related.rel1);
+    const params = new URLSearchParams(window.location.search);
+    const product_id = params.get('id');
     try{
       _add(_data[product_id].related.rel1, "green", "pp-related-container");
       _add(_data[product_id].related.rel1, "green", "pp-related-container-m");

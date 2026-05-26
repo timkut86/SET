@@ -1045,5 +1045,121 @@
                 "rate":"5"
             }
         }
+    },
+    "Samsung_65_inch_Class_Neo_QLED_QN990F":{
+        "product_name": "Samsung 65 Inch Class Neo QLED QN990F",
+        "brand": "Samsung",
+        "brand_image": "../static/Products/brands/Samsung.png",
+        "product_img_src_1": "../static/Products/Samsung_65_inch_Class_Neo_QLED_QN990F/Samsung_65_inch_Class_Neo_QLED_QN990F_img1.png",
+        "product_img_src_2": "../static/Products/Samsung_65_inch_Class_Neo_QLED_QN990F/Samsung_65_inch_Class_Neo_QLED_QN990F_img2.png",
+        "product_img_src_3": "../static/Products/Samsung_65_inch_Class_Neo_QLED_QN990F/Samsung_65_inch_Class_Neo_QLED_QN990F_img3.png",
+        "product_img_src_4": "../static/Products/Samsung_65_inch_Class_Neo_QLED_QN990F/Samsung_65_inch_Class_Neo_QLED_QN990F_img4.png",
+        "product_video": "N/A",
+        "product_price": "3300$",
+        "is_new": false,
+        "is_it_in_sales": true,
+        "sales_percent": "-40%",
+        "old_price": "5500$",
+        "product_delivery_date": "07/22/2026",
+        "is_favorite": false,
+        "description": "Our flagship 8K TV with our most powerful processor. Our best 8K TV features phenomenally sharp picture with immersive sound and breakthrough experiences powered by our most advanced processor¹ and Samsung Vision AI.² Nearly edgeless design and a glare-free screen are complemented by a wireless connection hub³ for a clutter-free, modern design. ¹Samsung Vision AI and associated features vary by 2025 TV model (not available on Q6F, Crystal and select special models). Al Upscaling utilizes Al-based formulas. See individual TV model specifications for details. ²Samsung Vision AI features vary by model; see individual model for more info. ³TV and Wireless One Connect require separate power cord connections. Wireless One Connect [only] connects to TV via [included] peer-to-peer WiFi and is omni-directional up to 30 feet; connection may be affected by surrounding environment, may not connect when enclosed or when blocked by metal (e.g., from inside a metal cabinet) or by other physical objects such as walls.",
+        "product_rating": "5.0",
+        "category": "techniques",
+        "type": "TVs",
+        "is_it_possible_to_buy": true,
+        "related":{
+            "rel1":"sony_playstation_5",
+            "rel2": "Samsung_Bespoke_AI_3_Door_French_Door",
+            "rel3": "",
+            "rel4": "",
+            "rel5": ""
+        },
+        "properties":{
+            "prop1":"NQ8 AI Gen3 Processor",
+            "prop2":"8K AI Upscaling Pro",
+            "prop3":"Wireless One Connect",
+            "prop4":"Glare Free",
+            "prop5":"",
+            "prop6":"",
+            "prop7":"",
+            "prop8":"",
+            "prop9":"",
+            "prop10":"SET Guarantie: 10 years"
+        },
+        "reviews":{
+            "r1":{
+                "name":"Empty",
+                "review":"Empty.",
+                "rate":"5"
+            },
+            "r2":{
+                "name":"Empty",
+                "review":"Empty.",
+                "rate":"5"
+            },
+            "r3":{
+                "name":"Empty",
+                "review":"Empty.",
+                "rate":"5"
+            }
+        }
+    },
+    "Samsung_Bespoke_AI_3_Door_French_Door":{
+        "product_name": "Samsung Bespoke AI 3-Door French Door",
+        "brand": "Samsung",
+        "brand_image": "../static/Products/brands/Samsung.png",
+        "product_img_src_1": "../static/Products/Samsung_Bespoke_AI_3_Door_French_Door/Samsung_Bespoke_AI_3_Door_French_Door_img1.png",
+        "product_img_src_2": "../static/Products/Samsung_Bespoke_AI_3_Door_French_Door/Samsung_Bespoke_AI_3_Door_French_Door_img2.png",
+        "product_img_src_3": "../static/Products/Samsung_Bespoke_AI_3_Door_French_Door/Samsung_Bespoke_AI_3_Door_French_Door_img3.png",
+        "product_img_src_4": "../static/Products/Samsung_Bespoke_AI_3_Door_French_Door/Samsung_Bespoke_AI_3_Door_French_Door_img4.png",
+        "product_video": "N/A",
+        "product_price": "1650$",
+        "is_new": true,
+        "is_it_in_sales": true,
+        "sales_percent": "-50%",
+        "old_price": "3300$",
+        "product_delivery_date": "07/31/2026",
+        "is_favorite": true,
+        "description": "See inside at a glance AutoView™. AutoView™ automatically lights up the transparent door when you get close, so you can see inside without opening the fridge.The fridge that fits. Zero clearance fit. Zero clearance fit fridges are designed to fit in all types of spaces.* Special hinges and slim doors allow the fridge to open with minimal gaps between walls and cabinets, providing a seamless look.Get four types of ice. 4 Types of Ice. Enjoy your favorite beverage with up to four types of ice. Choose from Sphere Ice™ or Half Sphere Ice™* from the freezer drawer and curved or crushed ice from the external dispenser.Tumbler-ready, no-tilt refills. External Tall Water & Ice Dispenser. Get extra room to fill large bottles, pitchers and tumblers for easier, no-tilt refills - with ice always ready.Refined Details. Premium Feel. Elevated Design. Refined handles and a full-metal interior panel deliver premium design that elevates the look and feel of your kitchen.",
+        "product_rating": "5.0",
+        "category": "techniques",
+        "type": "fridges",
+        "is_it_possible_to_buy": true,
+        "related":{
+            "rel1":"Samsung_65_inch_Class_Neo_QLED_QN990F",
+            "rel2": "",
+            "rel3": "",
+            "rel4": "",
+            "rel5": ""
+        },
+        "properties":{
+            "prop1":"",
+            "prop2":"",
+            "prop3":"",
+            "prop4":"",
+            "prop5":"",
+            "prop6":"",
+            "prop7":"",
+            "prop8":"",
+            "prop9":"",
+            "prop10":"SET Guarantie: 15 years"
+        },
+        "reviews":{
+            "r1":{
+                "name":"Empty",
+                "review":"Empty.",
+                "rate":"5"
+            },
+            "r2":{
+                "name":"Empty",
+                "review":"Empty.",
+                "rate":"5"
+            },
+            "r3":{
+                "name":"Empty",
+                "review":"Empty.",
+                "rate":"5"
+            }
+        }
     }
 }
