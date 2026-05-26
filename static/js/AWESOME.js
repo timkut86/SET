@@ -131,6 +131,7 @@ fetch("../static/Products/data.json")
     _add("IKEA_NEIDEN", "green", "cardss")
     _add("IKEA_KRYLBO", "green", "cardss")
     _add("Samsung_Bespoke_AI_3_Door_French_Door", "green", "cardss")
+    _add("IKEA_SKOGSTA", "green", "cardss")
 
     _add("sony_playstation_5", "green", "products-block-container")
     _add("apple_iphone_17_pro", "green", "products-block-container")
