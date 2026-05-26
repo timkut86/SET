@@ -116,7 +116,7 @@ main{
     }
     #main-ad-2 .ad{
         width: 100%;
-        background-color: #f6f5f8;
+        background-color: white;
         padding: 32px;
         display: flex;
         flex-direction: column;
