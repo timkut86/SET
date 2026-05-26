@@ -15,7 +15,7 @@ Enjoy my beautiful and great marketplace.
 # VERSION
 
 SET v1.0 b2
-may 26 2026
+(may 26 2026)
 
 - added 3 advertisements
 - added 2 products
