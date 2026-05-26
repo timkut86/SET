@@ -26,9 +26,9 @@
         "related":{
             "rel1":"apple_iphone_17_pro",
             "rel2": "sony_playstation_5",
-            "rel3": "",
-            "rel4": "",
-            "rel5": ""
+            "rel3": "Apple_Watch_Series_11",
+            "rel4": "Apple_Iphone_Air",
+            "rel5": "Apple_Macbook_Neo"
         },
         "properties":{
             "prop1":"Color: Black",
@@ -83,9 +83,9 @@
         "is_it_possible_to_buy": true,
         "related":{
             "rel1":"apple_iphone_17",
-            "rel2": "",
-            "rel3": "",
-            "rel4": "",
+            "rel2": "Apple_Watch_Series_11",
+            "rel3": "Apple_Iphone_Air",
+            "rel4": "Apple_Macbook_Neo",
             "rel5": ""
         },
         "properties":{
@@ -665,7 +665,7 @@
             "rel1":"apple_iphone_17",
             "rel2": "apple_iphone_17_pro",
             "rel3": "sony_playstation_5",
-            "rel4": "",
+            "rel4": "Apple_Iphone_Air",
             "rel5": ""
         },
         "properties":{
@@ -1143,6 +1143,122 @@
             "prop8":"",
             "prop9":"",
             "prop10":"SET Guarantie: 15 years"
+        },
+        "reviews":{
+            "r1":{
+                "name":"Empty",
+                "review":"Empty.",
+                "rate":"5"
+            },
+            "r2":{
+                "name":"Empty",
+                "review":"Empty.",
+                "rate":"5"
+            },
+            "r3":{
+                "name":"Empty",
+                "review":"Empty.",
+                "rate":"5"
+            }
+        }
+    },
+    "Apple_Watch_Series_11":{
+        "product_name": "Apple Watch Series 11",
+        "brand": "Apple",
+        "brand_image": "../static/Products/brands/apple.png",
+        "product_img_src_1": "../static/Products/Apple_Watch_Series_11/Apple_Watch_Series_11_img1.png",
+        "product_img_src_2": "../static/Products/Apple_Watch_Series_11/Apple_Watch_Series_11_img2.png",
+        "product_img_src_3": "../static/Products/Apple_Watch_Series_11/Apple_Watch_Series_11_img3.png",
+        "product_img_src_4": "../static/Products/Apple_Watch_Series_11/Apple_Watch_Series_11_img4.png",
+        "product_video": "N/A",
+        "product_price": "580$",
+        "is_new": false,
+        "is_it_in_sales": false,
+        "sales_percent": "-50%",
+        "old_price": "3300$",
+        "product_delivery_date": "07/07/2026",
+        "is_favorite": false,
+        "description": "The ultimate way to watch your health.",
+        "product_rating": "5.0",
+        "category": "techniques",
+        "type": "watches",
+        "is_it_possible_to_buy": true,
+        "related":{
+            "rel1":"apple_iphone_17",
+            "rel2": "apple_iphone_17_pro",
+            "rel3": "Apple_Iphone_Air",
+            "rel4": "Apple_Macbook_Neo",
+            "rel5": ""
+        },
+        "properties":{
+            "prop1":"",
+            "prop2":"",
+            "prop3":"",
+            "prop4":"",
+            "prop5":"",
+            "prop6":"",
+            "prop7":"",
+            "prop8":"",
+            "prop9":"",
+            "prop10":"SET Guarantie: 1 year"
+        },
+        "reviews":{
+            "r1":{
+                "name":"Empty",
+                "review":"Empty.",
+                "rate":"5"
+            },
+            "r2":{
+                "name":"Empty",
+                "review":"Empty.",
+                "rate":"5"
+            },
+            "r3":{
+                "name":"Empty",
+                "review":"Empty.",
+                "rate":"5"
+            }
+        }
+    },
+    "Apple_Iphone_Air":{
+        "product_name": "Apple iPhone Air",
+        "brand": "Apple",
+        "brand_image": "../static/Products/brands/apple.png",
+        "product_img_src_1": "../static/Products/Apple_Iphone_Air/Apple_Iphone_Air_img1.png",
+        "product_img_src_2": "../static/Products/Apple_Iphone_Air/Apple_Iphone_Air_img2.png",
+        "product_img_src_3": "../static/Products/Apple_Iphone_Air/Apple_Iphone_Air_img3.png",
+        "product_img_src_4": "../static/Products/Apple_Iphone_Air/Apple_Iphone_Air_img4.png",
+        "product_video": "N/A",
+        "product_price": "700$",
+        "is_new": false,
+        "is_it_in_sales": true,
+        "sales_percent": "-50%",
+        "old_price": "1400$",
+        "product_delivery_date": "07/07/2026",
+        "is_favorite": false,
+        "description": "iPhone Air is the thinnest iPhone ever, powered by the A19 Pro chip. It’s more durable than any previous iPhone, with a polished titanium frame, a 3x better scratch-resistant Ceramic Shield 2 front, and a 4x more crack-resistant Ceramic Shield back. Smarter group selfies and Dual Capture video with the new Center Stage front camera. The 48MP Fusion Main camera with 2x Telephoto supports the latest advanced features like next‑generation portraits and more. Immersive 6.5‑inch Super Retina XDR display with ProMotion up to 120Hz. All‑day battery life. Helpful Apple Intelligence tools like Clean Up and more.",
+        "product_rating": "5.0",
+        "category": "techniques",
+        "type": "devices",
+        "is_it_possible_to_buy": true,
+        "related":{
+            "rel1":"apple_iphone_17",
+            "rel2": "apple_iphone_17_pro",
+            "rel3": "Apple_Watch_Series_11",
+            "rel4": "Apple_Macbook_Neo",
+            "rel5": ""
+        },
+        "properties":{
+            "prop1":"",
+            "prop2":"",
+            "prop3":"",
+            "prop4":"",
+            "prop5":"",
+            "prop6":"",
+            "prop7":"",
+            "prop8":"",
+            "prop9":"",
+            "prop10":"SET Guarantie: 1 year"
         },
         "reviews":{
             "r1":{
