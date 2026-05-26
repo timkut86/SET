@@ -12,6 +12,17 @@ timkut86's tg channel - t.me/timkut86
 
 Enjoy my beautiful and great marketplace.
 
+# VERSION
+
+SET v1.0 b2
+may 26 2026
+
+- added 3 advertisements
+- added 2 products
+- related container in a product page works better
+- favorite and trends tabs in the catalog on desktop exactly show cards on all pages
+- "loading time" values increased by 2 times
+
 # THANKS
 
 - Google Icons and Figma (for icons)
