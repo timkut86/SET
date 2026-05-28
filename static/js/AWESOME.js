@@ -70,47 +70,6 @@ fetch("../static/Products/data.json")
   function open_product_page(_id){
     window.location.href = `product?id=${_id}`;
   }
-
-    _add("apple_iphone_17", "green", "recomendations-block-container.r-b-c-1");
-    _add("apple_iphone_17", "green", "recomendations-block-container.r-b-c-1");
-    _add("apple_iphone_17", "green", "recomendations-block-container.r-b-c-1");
-    _add("apple_iphone_17", "green", "recomendations-block-container.r-b-c-1");
-    _add("apple_iphone_17", "green", "recomendations-block-container.r-b-c-1");
-    _add("apple_iphone_17", "green", "recomendations-block-container.r-b-c-1");
-    _add("apple_iphone_17", "green", "recomendations-block-container.r-b-c-1");
-
-    _add("apple_iphone_17_pro", "green", "recomendations-block-container.r-b-c-2");
-    _add("apple_iphone_17_pro", "green", "recomendations-block-container.r-b-c-2");
-    _add("apple_iphone_17_pro", "green", "recomendations-block-container.r-b-c-2");
-    _add("apple_iphone_17_pro", "green", "recomendations-block-container.r-b-c-2");
-    _add("apple_iphone_17_pro", "green", "recomendations-block-container.r-b-c-2");
-    _add("apple_iphone_17_pro", "green", "recomendations-block-container.r-b-c-2");
-    _add("apple_iphone_17_pro", "green", "recomendations-block-container.r-b-c-2");
-
-    _add("sony_playstation_5", "green", "recomendations-block-container.r-b-c-3");
-    _add("sony_playstation_5", "green", "recomendations-block-container.r-b-c-3");
-    _add("sony_playstation_5", "green", "recomendations-block-container.r-b-c-3");
-    _add("sony_playstation_5", "green", "recomendations-block-container.r-b-c-3");
-    _add("sony_playstation_5", "green", "recomendations-block-container.r-b-c-3");
-    _add("sony_playstation_5", "green", "recomendations-block-container.r-b-c-3");
-    _add("sony_playstation_5", "green", "recomendations-block-container.r-b-c-3");
-
-    _add("apple_iphone_17", "green", "recomendations-block-container.r-b-c-4");
-    _add("apple_iphone_17", "green", "recomendations-block-container.r-b-c-4");
-    _add("apple_iphone_17", "green", "recomendations-block-container.r-b-c-4");
-    _add("apple_iphone_17", "green", "recomendations-block-container.r-b-c-4");
-    _add("apple_iphone_17", "green", "recomendations-block-container.r-b-c-4");
-    _add("apple_iphone_17", "green", "recomendations-block-container.r-b-c-4");
-    _add("apple_iphone_17", "green", "recomendations-block-container.r-b-c-4");
-
-    _add("apple_iphone_17", "green", "recomendations-block-container.r-b-c-5");
-    _add("apple_iphone_17", "green", "recomendations-block-container.r-b-c-5");
-    _add("apple_iphone_17", "green", "recomendations-block-container.r-b-c-5");
-    _add("apple_iphone_17", "green", "recomendations-block-container.r-b-c-5");
-    _add("apple_iphone_17", "green", "recomendations-block-container.r-b-c-5");
-    _add("apple_iphone_17", "green", "recomendations-block-container.r-b-c-5");
-    _add("apple_iphone_17", "green", "recomendations-block-container.r-b-c-5");
-
     _add("apple_iphone_17", "brown", "cart");
     _add("Lego_Minecraft_Mini_Biomes", "brown", "cart");
     _add("sony_playstation_5", "brown", "cart");
@@ -176,23 +135,23 @@ fetch("../static/Products/data.json")
     _add("Adidas_WORKOUT_ESSENTIALS_BASE_WOVEN_SHORT", "green", "cc_for_trends")
     _add("Lego_Technic_Jeep_Wrangler_Rubicon_SUV", "green", "cc_for_trends")
 
+    _add("Adidas_Tennis_Climacool_Freelift_T-Shirt_Pro", "brown", "about-SET-container-1")
     _add("Movavi_School_Dino_Cap", "brown", "about-SET-container-1")
-    _add("Movavi_School_Dino_Cap", "brown", "about-SET-container-1")
-    _add("Movavi_School_Dino_Cap", "brown", "about-SET-container-1")
-    _add("Movavi_School_Dino_Cap", "brown", "about-SET-container-1")
-    _add("Movavi_School_Dino_Cap", "brown", "about-SET-container-1")
+    _add("Adidas_WORKOUT_ESSENTIALS_BASE_WOVEN_SHORT", "brown", "about-SET-container-1")
+    _add("Adidas_SUPERNOVA_RISE_3_RUNNING_SHOES", "brown", "about-SET-container-1")
+    _add("Adidas_Adizero_EVO_SL_Shoes", "brown", "about-SET-container-1")
 
+    _add("Adidas_Tennis_Climacool_Freelift_T-Shirt_Pro", "green", "about-SET-container-2")
+    _add("apple_iphone_17_pro", "green", "about-SET-container-2")
     _add("Movavi_School_Dino_Cap", "green", "about-SET-container-2")
-    _add("Movavi_School_Dino_Cap", "green", "about-SET-container-2")
-    _add("Movavi_School_Dino_Cap", "green", "about-SET-container-2")
-    _add("Movavi_School_Dino_Cap", "green", "about-SET-container-2")
-    _add("Movavi_School_Dino_Cap", "green", "about-SET-container-2")
+    _add("Apple_Watch_Series_11", "green", "about-SET-container-2")
+    _add("Adidas_SUPERNOVA_RISE_3_RUNNING_SHOES", "green", "about-SET-container-2")
 
-    _add("Movavi_School_Dino_Cap", "brown", "about-SET-container-3")
-    _add("Movavi_School_Dino_Cap", "brown", "about-SET-container-3")
-    _add("Movavi_School_Dino_Cap", "brown", "about-SET-container-3")
-    _add("Movavi_School_Dino_Cap", "brown", "about-SET-container-3")
-    _add("Movavi_School_Dino_Cap", "brown", "about-SET-container-3")
+    _add("IKEA_DEKAD", "brown", "about-SET-container-3")
+    _add("IKEA_SANELA", "brown", "about-SET-container-3")
+    _add("IKEA_JÄTTEBO", "brown", "about-SET-container-3")
+    _add("IKEA_NEIDEN", "brown", "about-SET-container-3")
+    _add("IKEA_SKOGSTA", "brown", "about-SET-container-3")
 
     _add("apple_iphone_17_pro", "white", "pbc_")
     _add("Lego_Minecraft_Mini_Biomes", "white", "pbc_")
