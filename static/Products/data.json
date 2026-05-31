@@ -778,7 +778,7 @@
         "type": "beds",
         "is_it_possible_to_buy": true,
         "related":{
-            "rel1":"",
+            "rel1":"IKEA_SANELA",
             "rel2": "",
             "rel3": "",
             "rel4": "",
@@ -838,7 +838,7 @@
         "related":{
             "rel1":"",
             "rel2": "",
-            "rel3": "",
+            "rel3": "IKEA_NEIDEN",
             "rel4": "",
             "rel5": ""
         },

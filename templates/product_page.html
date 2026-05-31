@@ -38,7 +38,7 @@
                           <div class="ppb1-info-buttons">
                               <button class="black" id="regular">Add to Cart</button>
                               <button class="black ppblfavd"><img src="../static/icons/Light/Star.svg"></button>
-                              <button class="black pp_copy" onclick="navigator.clipboard.writeText(window.location.href); alert('Copied');"><img src="../static/icons/Light/Copy.svg"></button>
+                              <button class="black pp_copy" id="pp_copy"><img src="../static/icons/Light/Copy.svg"></button>
                           </div>
                           <div class="ppb1-info-rating-and-delivery">
                               <div class="ppb1-info-rating">
@@ -94,7 +94,7 @@
                   <div class="pp-m-buttons">
                       <button class="black" id="regular">Add to Cart</button>
                       <button class="black ppblfavdm"><img src="../static/icons/Light/Star.svg"></button>
-                      <button class="black pp_copy" onclick="navigator.clipboard.writeText(window.location.href); alert('Copied');"><img src="../static/icons/Light/Copy.svg"></button>
+                      <button class="black pp_copy" id="pp_copy_m"><img src="../static/icons/Light/Copy.svg"></button>
                   </div>
                   <div class="pp-m-rating-and-delivery">
                       <div class="ppb1-info-rating">
@@ -157,6 +157,10 @@
     <div class="nav-catalog green" id="nav-catalog"></div>
     <div id="loading-screen"><h1>SET</h1></div>
     <div class="nav-mobile"></div>
+    <div class="copied" id="copied_label____">
+        <img src="../static/icons/Light/Copy.svg">
+        <p id="regular">Copied link</p>
+    </div>
     <!--JS-->
     <script src="../static/js/navigation.js"></script>
     <script src="../static/js/nav-catalog.js"></script>
@@ -166,6 +170,7 @@
     <script src="../static/js/loading-screen.js"></script>
     <script src="../static/js/pp.js"></script>
     <script src="../static/js/photos_looking.js"></script>
+    <script src="../static/js/copy btn.js"></script>
     <script src="../static/js/AWESOME.js" defer></script>
 </body>
 </html>

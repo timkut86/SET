@@ -53,7 +53,7 @@ fetch("../static/Products/data.json")
       document.querySelector(".plc_photo2").innerHTML = `<img src="${_data[product_id].product_img_src_2}">`;
       document.querySelector(".plc_photo3").innerHTML = `<img src="${_data[product_id].product_img_src_3}">`;
       document.querySelector(".plc_photo4").innerHTML = `<img src="${_data[product_id].product_img_src_4}">`;
-      document.querySelector(".plc_photo5").innerHTML = `<video src="${_data[product_id].product_video}" controls></video>`;
+      document.querySelector(".plc_photo5").innerHTML = `<video src="${_data[product_id].product_video}" controls poster="${_data[product_id].product_img_src_1}"></video>`;
 
       document.querySelector(".pp___rating").innerHTML = `${_data[product_id].product_rating}`;
       document.querySelector(".pp-reviews-container").innerHTML = ` <div class="review">
