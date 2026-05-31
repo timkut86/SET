@@ -2,7 +2,7 @@
 
 The Shop of EveryThing. SET everything!
 
-This is fake. It will be introduced on Movavi IT Fest 2026.
+This is fake. It was introduced on Movavi IT Fest 2026.
 
 Shop of EveryThing (SET) is a good marketplace of everything. Only high-quality products directly from manufacturers.
 
