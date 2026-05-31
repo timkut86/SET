@@ -1,3 +1,8 @@
+SET v1.0
+(may 31 2026)
+
+- RELEASE
+
 SET v1.0 b3
 (may 28 2026)
 
