@@ -14,10 +14,10 @@ Enjoy my beautiful and great marketplace.
 
 # VERSION
 
-SET v1.0 b3
-(may 28 2026)
+SET v1.0
+(may 31 2026)
 
-- small changes
+- RELEASE
 
 # THANKS
 
