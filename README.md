@@ -14,10 +14,10 @@ Enjoy my beautiful and great marketplace.
 
 # VERSION
 
-SET v1.0
-(may 31 2026)
+SET v1.0.1
+(june 1 2026)
 
-- RELEASE
+- added 2 metas with description and title names into template/index.html
 
 # THANKS
 
