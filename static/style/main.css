@@ -62,7 +62,6 @@ main{
         /* width: 666px; */
         background-color: orange;
         border-radius: 15px;
-        margin-bottom: 36px;
         margin-left: 18px;
         margin-right: 18px;
         border: 1px solid #1E1E1E;
@@ -421,7 +420,7 @@ button{
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    transform: translateY(-115px);
+    transform: translateY(-85px);
     button{
         margin: 2%;
         margin-top: 0;
