@@ -14,10 +14,13 @@ Enjoy my beautiful and great marketplace.
 
 # VERSION
 
-SET v1.0.1
-(june 1 2026)
+SET v1.1 b2
+(june 11 2026)
 
-- added 2 metas with description and title names into template/index.html
+- "notifications" use as the same technology as cards (JSON)
+- the SET will not load if you have AdBlock enabled
+
+you can viev other change logs on version.txt
 
 # THANKS
 
