@@ -6,6 +6,9 @@ check();
 
 function check(){
     if(_ats == '0'){
-        console.log("The SET cannot work with AdBlock. Turn off that for SET can work.");
-    } else {console.log("The SET loaded succesfully."); _ba.style.display = 'none';}
+        console.log("The SET cannot work with AdBlock. Turn off that for SET can work."); _ba.style.display = 'flex';
+    } 
+    else{
+        console.log("The SET loaded succesfully."); _ba.style.display = 'none';
+    }
 }
