@@ -1,0 +1,102 @@
+{
+    "1":{
+        "title": "We're delivering your order.",
+        "text": "",
+        "ago": "1d"
+    },
+    "2":{
+        "title": "We're delivering your order.",
+        "text": "",
+        "ago": "5d"
+    },
+    "3":{
+        "title": "We've delivered your order",
+        "text": "",
+        "ago": "1w"
+    },
+    "4":{
+        "title": "Your SET-Card.",
+        "text": "You have 885$",
+        "ago": "2w"
+    },
+    "5":{
+        "title": "We've delivered your order.",
+        "text": "",
+        "ago": "2w"
+    },
+    "6":{
+        "title": "Your SET-Card.",
+        "text": "You have 8185$",
+        "ago": "4w"
+    },
+    "7":{
+        "title": "Your SET-Card.",
+        "text": "You have 3135$",
+        "ago": "1m"
+    },
+    "8":{
+        "title": "We've delivered your order.",
+        "text": "",
+        "ago": "1m"
+    },
+    "9":{
+        "title": "We've delivered your order.",
+        "text": "",
+        "ago": "1m"
+    },
+    "10":{
+        "title": "We've delivered your order.",
+        "text": "",
+        "ago": "1m"
+    },
+    "11":{
+        "title": "We've delivered your order.",
+        "text": "",
+        "ago": "1m"
+    },
+    "12":{
+        "title": "We've delivered your order.",
+        "text": "",
+        "ago": "2m"
+    },
+    "13":{
+        "title": "Your SET-Card.",
+        "text": "You have 14135$",
+        "ago": "3m"
+    },
+    "14":{
+        "title": "We've delivered your order.",
+        "text": "",
+        "ago": "3m"
+    },
+    "15":{
+        "title": "We've delivered your order.",
+        "text": "",
+        "ago": "4m"
+    },
+    "16":{
+        "title": "We've delivered your order.",
+        "text": "",
+        "ago": "4m"
+    },
+    "17":{
+        "title": "We've delivered your order.",
+        "text": "",
+        "ago": "5m"
+    },
+    "18":{
+        "title": "We've delivered your order.",
+        "text": "",
+        "ago": "5m"
+    },
+    "19":{
+        "title": "Your SET-Card.",
+        "text": "You have 20000$",
+        "ago": "6m"
+    },
+    "20":{
+        "title": "Welcome to the SET store!",
+        "text": "Start shopping now.",
+        "ago": "1y"
+    }
+}
