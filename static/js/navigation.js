@@ -13,7 +13,7 @@ const navigation = `<div class = "navigation">
             <!--<div class="navigation-button" id="nb">
                 <a href="index" id="regular">Home</a>
             </div>-->
-            <button class="black-nb" id="open-catalog_btn"><div class="catalog_btn_padding"><img src="../static/icons/Light/List.svg"><p>Catalog</p></div></button>
+            <button class="black-nb" id="open-catalog_btn"><div class="catalog_btn_padding"><img src="../static/icons/Light/List.svg"><p>Catalogue</p></div></button>
         </div>
         <div class="nav-part-2">
             <div class="navigation-button nb-" id="nb-icon" style="background: url(../static/icons/Dark/Book.svg);">
