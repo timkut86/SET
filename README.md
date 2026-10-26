@@ -4,10 +4,6 @@ This is fake. It was introduced on Movavi IT Fest 2026.
 
 Shop of EveryThing (SET) is a good marketplace of everything. Only high-quality products directly from manufacturers.
 
-Check it out - set-60yn.onrender.com (SET works on python flask & waitress server)
-
-timkut86's tg channel - t.me/timkut86
-
 Enjoy my beautiful and great marketplace.
 
 # VERSION
