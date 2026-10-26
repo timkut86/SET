@@ -1,6 +1,4 @@
-# SET
-
-The Shop of EveryThing. SET everything!
+<img src="title.svg" width="100%" alt="Styled Header" >
 
 This is fake. It was introduced on Movavi IT Fest 2026.
 
@@ -14,11 +12,10 @@ Enjoy my beautiful and great marketplace.
 
 # VERSION
 
-SET v1.1 b2
-(june 11 2026)
+SET v1.1 b3
+(October 26 2026)
 
-- "notifications" use as the same technology as cards (JSON)
-- the SET will not load if you have AdBlock enabled
+- you can search products by ID
 
 you can viev other change logs on version.txt
 

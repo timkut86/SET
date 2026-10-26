@@ -11,63 +11,49 @@
     text-align: center;
     z-index: 5;
     border-radius: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
     div{
-        display: inline-block;
-    }
-    .nav-part-1{
-        left: 0;
-        position: fixed;
         display: flex;
-        flex-direction: row;
+        width: calc(100% / 3);
+    }
+    .nav-part-1-updated{
+        justify-self: flex-start;
+        display: flex;
         justify-content: flex-start;
-        align-items: flex-start;
-        padding: 18px;
+        align-items: center;
+        padding: 12px;
         #nb-logo{
-            a, button{
-                color: #1E1E1E;
-            }
-        }
-        #nb{
-            a, button{
-                color: #1E1E1E;
-                font-size: 12px;
-            }
+            margin-bottom: 6px;
         }
     }
-    .nav-part-2{
-        top: 21px;
-        right: 0;
-        position: fixed;
+    .nav-part-2-updated{
+        justify-self: center;
         display: flex;
-        flex-direction: row;
-        #nb-icon{
-            width: 24px;
-            height: 24px;
-            margin: 12px;
-            margin-top: 0;
-            margin-left: 0;
-            margin-right: 24px;
-            a, button{
-                display: block;
-                width: 100%;
-                height: 100%;
-            }
+        justify-content: center;
+        align-items: center;
+    }
+    .nav-part-3-updated{
+        justify-self: flex-end;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .navigation-button{
+        width: 24px;
+        height: 24px;
+        margin-right: 12px;
+        margin-left: 12px;
+        *{
+            width: 100%;
+            height: 100%;
         }
     }
-    input{
-        width: 400px;
-        height: 40px;
-        background-color: #E0E0E0;
-        border: 1px solid rgba(91, 91, 91, 0.5);
-        border-radius: 20px;
-        transform: translateY(6px);
-        margin-top: 6.5px;
-        color: #A1A1A1;
-        font-family: "DM_mono";
-        font-style: light;
-        font-size: 16px;
-        padding-left: 16px;
-        transition: 0.25s;
+    .black-nb1{
+        margin-bottom: -6px;
+        margin-left: 12px;
+        margin-right: 12px;
     }
     input:hover{
         box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.5);
@@ -94,7 +80,22 @@
         }
     }
 }
-
+#nav-search-find{
+        margin-left: 16px;
+        min-width: 40px;
+        height: 40px;
+        border-radius: 30px;
+        background-color: #E0E0E0;
+        border: 1px solid rgba(91, 91, 91, 0.5);
+        img{
+            width: 50%;
+            height: 50%;
+        }
+        p{
+            margin-left: 8px;
+            margin-right: 8px;
+        }
+}
 @media screen and (max-width: 1200px) {
     .navigation input{
         width: 300px;

@@ -57,6 +57,10 @@ def photos_looking():
 def help():
     return render_template('help.html')
 
+@app.route('/mySETaccount')
+def mySETaccount():
+    return render_template('mySETaccount.html')
+
 if __name__ == '__main__':
     serve(app, host='0.0.0.0', port=8080)
 

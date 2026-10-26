@@ -21,7 +21,11 @@
 <body id ="body" class="body" style="background-color: #E0E0E0;">
     <div class="navigation-wreaper"></div>
     <main class="brown catalog">
-        <div class="pad"></div>
+        <div class="pad"></div>     
+        <div class="search__">
+            <input type="text" id="mSET-catalog-search" style="width: 270px;" placeholder="product ID search">
+            <button id="mSET-catalog-search_" class="search_btn"><img src="../static/icons/Dark/Search(1).svg"></button>
+        </div>
         <button class="black" id="regular" onclick="window.location.href = 'products';">Products</button>
         <h4>Favorites</h4>
         <div class="catalog_container cc_for_you"></div>
@@ -269,5 +273,6 @@
     <script src="../static/js/managing-footer.js"></script>
     <script src="../static/js/AWESOME.js"></script>
     <script src="../static/js/loading-screen.js"></script>
+    <script src="../static/js/catalog-search.js"></script>
 </body>
 </html>

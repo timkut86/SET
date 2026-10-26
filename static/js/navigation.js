@@ -1,21 +1,17 @@
 const body = document.getElementById("body");
 
 const navigation = `<div class = "navigation">
-        <div class="nav-part-1">
-            <div class="navigation-button nb-s" id="nb-m">
-                <div class="navigation-button nb-m" id="nb-m" style="background: url(../static/icons/Dark/More\ vertical.svg);">
-                    <a href=""></a>
-                </div>
-            </div>
+        <div class="nav-part-1-updated">
             <div class="navigation-button" id="nb-logo">
                 <a href="/"><h1>SET</h1></a>
             </div>
-            <!--<div class="navigation-button" id="nb">
-                <a href="index" id="regular">Home</a>
-            </div>-->
-            <button class="black-nb" id="open-catalog_btn"><div class="catalog_btn_padding"><img src="../static/icons/Light/List.svg"><p>Catalogue</p></div></button>
+            <button class="black-nb" id="open-catalog_btn"><div class="catalog_btn_padding"><img src="../static/icons/Light/List.svg"><p>Catalog</p></div></button>
         </div>
-        <div class="nav-part-2">
+        <div class="nav-part-2-updated">
+            <input type="text" id="nav-search" placeholder="product ID search">
+            <button id="nav-search-find"><img src="../static/icons/Dark/Search(1).svg"></button>
+        </div>
+        <div class="nav-part-3-updated">
             <div class="navigation-button nb-" id="nb-icon" style="background: url(../static/icons/Dark/Book.svg);">
                 <a href="orders"></a>
             </div>
@@ -38,6 +34,7 @@ const navigation = `<div class = "navigation">
                     <p id="regular">**** 8274</p>
                     <p id="regular">$175,69</p>
                 </a>
+                <div class="button2" id="regular"><a href="mySETaccount"><p>My SET Account</p></a></div>
                 <div class="button2" id="regular"><a href="orders"><p>Orders</p></a></div>
                 <div class="button2" id="regular"><a href="notifications"><p>Notifications</p></a></div>
                 <div class="button2" id="regular"><a href="settings"><p>Settings</p></a></div>
@@ -623,6 +620,13 @@ function selectt(){
         nc_b11.style.transform = 'translateX(-1100%)';
         nc_b12.style.transform = 'translateX(-1100%)';
     }
+}
+
+const nav_search_find = document.getElementById("nav-search-find")
+const nav_search = document.getElementById("nav-search")
+
+nav_search_find.onclick = function(){
+    window.location.href = `product?id=${nav_search.value}`;
 }
 
 const profile_menu = document.getElementById("profile-menu");

@@ -3,7 +3,6 @@ fetch("../static/Products/data.json")
   .then(_data => {
       product_id = localStorage.getItem('product_id');
       localStorage.setItem('product_id', product_id);
-      console.log(_data)
       var new_ = 0;
       var sales_ = 0;
       var favotite = 0;
@@ -20,7 +19,7 @@ fetch("../static/Products/data.json")
               <main class="product-page-desktop green">
                   <div class="product-page-block-1">
                       <div class="ppb1-info">
-                          <h1>${_data[product_id].product_name}</h1>
+                          <h1 id="pp____ID">${_data[product_id].product_name}</h1>
                           <div class="ppb1-info-price">
                               <div class="ppb1-info-price-labels-and-oldprice new${new_} sales${sales_}">
                                   <div class="ppb1-info-price-label-new" id="Limelight">NEW</div>
@@ -198,6 +197,6 @@ fetch("../static/Products/data.json")
                   </div>
               </div>
         `;
-      document.querySelector(".product-page").innerHTML = page; 
+      if(_data[product_id].product_name != undefined) document.querySelector(".product-page").innerHTML = page; 
       console.log(`The ${_data[product_id].product_name} is loaded.`);
 });

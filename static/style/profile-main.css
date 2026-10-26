@@ -137,7 +137,7 @@ main.profile-m{
 }
 @media (max-height: 800px) {
     .profile-menu{
-        height: 400px;
+        height: 300px;
         overflow-y: scroll;
     }
 }

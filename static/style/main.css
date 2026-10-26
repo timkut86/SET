@@ -24,12 +24,8 @@ main{
         font-size: 16px;
         padding-left: 8px;
         border-radius: 40px;
-        background-color: rgba(229, 255, 204, 0.5);
-        border: 1px solid #4C9900;
-        color: #A1A1A1;
         font-family: "DM_mono";
         font-style: light;
-        margin-top: 160px;
     }
     .main-buttons-block-1{
         display: flex;
