@@ -17,7 +17,7 @@ SET v1.1 b3
 
 - you can search products by ID
 
-you can viev other change logs on version.txt
+you can viev other change logs in version.txt
 
 # THANKS
 
